@@ -164,3 +164,4 @@ lokal dan dijadwalkan oleh perangkat.
 Proyek pribadi. Aset gambar dan font Plus Jakarta Sans dipakai untuk keperluan
 aplikasi ini.
 # segar
+# segar
