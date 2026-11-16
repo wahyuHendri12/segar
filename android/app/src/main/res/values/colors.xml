@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches AppPalette.lightSurface so the native splash blends into the app. -->
+    <color name="segar_splash_background">#FAFAF7</color>
+    <!-- Brand green used by the adaptive launcher icon. -->
+    <color name="ic_launcher_background">#2E9E5B</color>
+</resources>

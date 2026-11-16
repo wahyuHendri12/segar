@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "recipes": [
+    {
+      "id": "sayur-bening-bayam-jagung",
+      "title": "Sayur Bening Bayam Jagung Manis",
+      "emoji": "🥬",
+      "imageAsset": "assets/images/recipe_sayur_bening.jpg",
+      "cookTimeMin": 15,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 8000,
+      "tags": ["cepat", "kuah", "kos"],
+      "steps": [
+        "Petik daun bayam, cuci bersih, dan potong jagung menjadi beberapa bagian.",
+        "Didihkan air, masukkan bawang merah, bawang putih, dan jagung. Masak 7 menit.",
+        "Tambahkan bayam, garam, dan gula. Masak 3 menit hingga bayam layu.",
+        "Angkat, cicipi rasa, dan sajikan selagi hangat."
+      ],
+      "ingredients": [
+        {"catalogId": "bayam", "name": "Bayam", "amount": 1, "unit": "ikat"},
+        {"catalogId": "jagung-manis", "name": "Jagung Manis", "amount": 1, "unit": "pcs"},
+        {"catalogId": "bawang-merah", "name": "Bawang Merah", "amount": 2, "unit": "pcs"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 1, "unit": "siung"},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Gula", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Air", "amount": 500, "unit": "ml", "isStaple": true}
+      ]
+    },
+    {
+      "id": "sup-telur-tomat",
+      "title": "Sup Telur Tomat Gurih Ala Rumahan",
+      "emoji": "🍅",
+      "imageAsset": "assets/images/recipe_tomato_egg.jpg",
+      "cookTimeMin": 10,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 7000,
+      "tags": ["cepat", "kuah", "kos"],
+      "steps": [
+        "Potong tomat dan daun bawang, lalu kocok telur.",
+        "Tumis bawang putih hingga harum, masukkan tomat dan masak sampai lembut.",
+        "Tuang air, didihkan, lalu masukkan telur sambil diaduk perlahan.",
+        "Bumbui garam, taburi daun bawang, dan sajikan."
+      ],
+      "ingredients": [
+        {"catalogId": "tomat", "name": "Tomat", "amount": 2, "unit": "pcs"},
+        {"catalogId": "telur", "name": "Telur", "amount": 2, "unit": "butir"},
+        {"catalogId": "daun-bawang", "name": "Daun Bawang", "amount": 1, "unit": "ikat"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 1, "unit": "siung"},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Air", "amount": 600, "unit": "ml", "isStaple": true}
+      ]
+    },
+    {
+      "id": "smoothie-bayam-pisang",
+      "title": "Smoothie Hijau Segar Pisang & Bayam",
+      "emoji": "🥤",
+      "imageAsset": "assets/images/recipe_smoothie.jpg",
+      "cookTimeMin": 5,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 10000,
+      "tags": ["cepat", "kos", "minuman"],
+      "steps": [
+        "Cuci bayam dan petik daunnya.",
+        "Masukkan bayam, pisang, dan susu ke blender.",
+        "Tambahkan yogurt bila suka, lalu blender hingga halus.",
+        "Tuang ke gelas dan nikmati segera."
+      ],
+      "ingredients": [
+        {"catalogId": "bayam", "name": "Bayam", "amount": 0.5, "unit": "ikat"},
+        {"catalogId": "pisang", "name": "Pisang", "amount": 2, "unit": "pcs"},
+        {"catalogId": "susu-segar", "name": "Susu Segar", "amount": 250, "unit": "ml"},
+        {"catalogId": "yogurt", "name": "Yogurt", "amount": 1, "unit": "botol", "isOptional": true}
+      ]
+    },
+    {
+      "id": "tumis-kangkung-cabai",
+      "title": "Tumis Kangkung Cabai Renyah",
+      "emoji": "🌿",
+      "cookTimeMin": 10,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 6000,
+      "tags": ["cepat", "tumis", "kos"],
+      "steps": [
+        "Petik kangkung dan cuci bersih. Iris cabai, bawang merah, dan bawang putih.",
+        "Panaskan minyak, tumis bumbu iris hingga harum.",
+        "Masukkan kangkung, aduk cepat dengan api besar.",
+        "Bumbui garam, masak sebentar agar tetap renyah, lalu sajikan."
+      ],
+      "ingredients": [
+        {"catalogId": "kangkung", "name": "Kangkung", "amount": 1, "unit": "ikat"},
+        {"catalogId": "cabai-merah", "name": "Cabai Merah", "amount": 3, "unit": "pcs"},
+        {"catalogId": "bawang-merah", "name": "Bawang Merah", "amount": 2, "unit": "pcs"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 2, "unit": "siung"},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true}
+      ]
+    },
+    {
+      "id": "tempe-orek-manis-pedas",
+      "title": "Tempe Orek Manis Pedas",
+      "emoji": "🍯",
+      "cookTimeMin": 15,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 9000,
+      "tags": ["cepat", "tumis", "kos"],
+      "steps": [
+        "Potong tempe kecil-kecil, lalu goreng hingga kuning keemasan.",
+        "Iris cabai, bawang merah, bawang putih, dan lengkuas.",
+        "Tumis bumbu iris dan daun jeruk hingga harum.",
+        "Masukkan tempe, kecap manis, dan garam. Aduk rata dan masak 3 menit."
+      ],
+      "ingredients": [
+        {"catalogId": "tempe", "name": "Tempe", "amount": 1, "unit": "pcs"},
+        {"catalogId": "cabai-merah", "name": "Cabai Merah", "amount": 2, "unit": "pcs"},
+        {"catalogId": "bawang-merah", "name": "Bawang Merah", "amount": 3, "unit": "pcs"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 2, "unit": "siung"},
+        {"catalogId": "lengkuas", "name": "Lengkuas", "amount": 1, "unit": "pcs"},
+        {"catalogId": "daun-jeruk", "name": "Daun Jeruk", "amount": 2, "unit": "pcs", "isOptional": true},
+        {"name": "Kecap Manis", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true}
+      ]
+    },
+    {
+      "id": "perkedel-kentang",
+      "title": "Perkedel Kentang Gurih",
+      "emoji": "🥔",
+      "cookTimeMin": 30,
+      "difficulty": "sedang",
+      "servings": 3,
+      "estimatedCostIdr": 12000,
+      "tags": ["goreng"],
+      "steps": [
+        "Kupas dan rebus kentang hingga empuk, lalu haluskan.",
+        "Iris daun bawang dan haluskan bawang putih.",
+        "Campur kentang, daun bawang, bawang putih, garam, dan kuning telur.",
+        "Bentuk bulat pipih, celup ke putih telur, lalu goreng hingga keemasan."
+      ],
+      "ingredients": [
+        {"catalogId": "kentang", "name": "Kentang", "amount": 0.5, "unit": "kg"},
+        {"catalogId": "telur", "name": "Telur", "amount": 1, "unit": "butir"},
+        {"catalogId": "daun-bawang", "name": "Daun Bawang", "amount": 1, "unit": "ikat"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 2, "unit": "siung"},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true}
+      ]
+    },
+    {
+      "id": "capcay-sayur-rumahan",
+      "title": "Capcay Sayur Rumahan",
+      "emoji": "🥦",
+      "cookTimeMin": 20,
+      "difficulty": "mudah",
+      "servings": 3,
+      "estimatedCostIdr": 14000,
+      "tags": ["tumis", "sayur"],
+      "steps": [
+        "Potong semua sayur dan ayam sesuai selera.",
+        "Tumis bawang putih hingga harum, masukkan ayam dan masak sampai berubah warna.",
+        "Tambahkan wortel, buncis, kol, dan air. Masak 5 menit.",
+        "Masukkan sawi, bumbui garam, dan masak hingga sayur matang."
+      ],
+      "ingredients": [
+        {"catalogId": "wortel", "name": "Wortel", "amount": 0.2, "unit": "kg"},
+        {"catalogId": "sawi-hijau", "name": "Sawi Hijau", "amount": 1, "unit": "ikat"},
+        {"catalogId": "kol", "name": "Kol", "amount": 0.25, "unit": "pcs"},
+        {"catalogId": "buncis", "name": "Buncis", "amount": 0.1, "unit": "kg"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 2, "unit": "siung"},
+        {"catalogId": "ayam-mentah", "name": "Ayam Mentah", "amount": 0.1, "unit": "kg", "isOptional": true},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Air", "amount": 100, "unit": "ml", "isStaple": true}
+      ]
+    },
+    {
+      "id": "ayam-kecap-bawang",
+      "title": "Ayam Kecap Bawang Empuk",
+      "emoji": "🍗",
+      "cookTimeMin": 35,
+      "difficulty": "sedang",
+      "servings": 3,
+      "estimatedCostIdr": 25000,
+      "tags": ["ayam"],
+      "steps": [
+        "Potong ayam dan cuci bersih. Iris bawang merah, bawang putih, dan jahe.",
+        "Tumis bumbu iris, serai, dan daun jeruk hingga harum.",
+        "Masukkan ayam, masak sampai berubah warna.",
+        "Tambahkan kecap manis, garam, dan air. Masak 20 menit hingga kuah mengental."
+      ],
+      "ingredients": [
+        {"catalogId": "ayam-mentah", "name": "Ayam Mentah", "amount": 0.5, "unit": "kg"},
+        {"catalogId": "bawang-merah", "name": "Bawang Merah", "amount": 4, "unit": "pcs"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 3, "unit": "siung"},
+        {"catalogId": "jahe", "name": "Jahe", "amount": 1, "unit": "pcs"},
+        {"catalogId": "serai", "name": "Serai", "amount": 1, "unit": "pcs"},
+        {"catalogId": "daun-jeruk", "name": "Daun Jeruk", "amount": 3, "unit": "pcs"},
+        {"name": "Kecap Manis", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Air", "amount": 300, "unit": "ml", "isStaple": true}
+      ]
+    },
+    {
+      "id": "ikan-tongkol-bumbu-kuning",
+      "title": "Ikan Tongkol Bumbu Kuning",
+      "emoji": "🐟",
+      "cookTimeMin": 30,
+      "difficulty": "sedang",
+      "servings": 3,
+      "estimatedCostIdr": 22000,
+      "tags": ["ikan"],
+      "steps": [
+        "Bersihkan ikan dan lumuri dengan garam.",
+        "Haluskan kunyit, jahe, lengkuas, bawang merah, dan bawang putih.",
+        "Tumis bumbu halus, serai, dan daun jeruk hingga harum.",
+        "Masukkan ikan dan sedikit air, masak hingga bumbu meresap dan ikan matang."
+      ],
+      "ingredients": [
+        {"catalogId": "ikan-segar", "name": "Ikan Segar", "amount": 0.4, "unit": "kg"},
+        {"catalogId": "kunyit", "name": "Kunyit", "amount": 1, "unit": "pcs"},
+        {"catalogId": "jahe", "name": "Jahe", "amount": 1, "unit": "pcs"},
+        {"catalogId": "lengkuas", "name": "Lengkuas", "amount": 1, "unit": "pcs"},
+        {"catalogId": "bawang-merah", "name": "Bawang Merah", "amount": 3, "unit": "pcs"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 2, "unit": "siung"},
+        {"catalogId": "serai", "name": "Serai", "amount": 1, "unit": "pcs"},
+        {"catalogId": "daun-jeruk", "name": "Daun Jeruk", "amount": 2, "unit": "pcs"},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true}
+      ]
+    },
+    {
+      "id": "nasi-goreng-sayur-kilat",
+      "title": "Nasi Goreng Sayur Kilat",
+      "emoji": "🍚",
+      "cookTimeMin": 10,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 10000,
+      "tags": ["cepat", "kos"],
+      "steps": [
+        "Cincang wortel dan daun bawang, haluskan bawang putih.",
+        "Panaskan minyak, buat orak-arik telur, lalu sisihkan di pinggir wajan.",
+        "Tumis bawang putih dan wortel hingga layu.",
+        "Masukkan nasi, kecap manis, dan garam. Aduk rata, tambahkan daun bawang, lalu sajikan."
+      ],
+      "ingredients": [
+        {"catalogId": "nasi-matang", "name": "Nasi Matang", "amount": 2, "unit": "bungkus"},
+        {"catalogId": "telur", "name": "Telur", "amount": 2, "unit": "butir"},
+        {"catalogId": "wortel", "name": "Wortel", "amount": 0.1, "unit": "kg"},
+        {"catalogId": "daun-bawang", "name": "Daun Bawang", "amount": 1, "unit": "ikat"},
+        {"catalogId": "bawang-putih", "name": "Bawang Putih", "amount": 2, "unit": "siung"},
+        {"name": "Kecap Manis", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Garam", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true}
+      ]
+    },
+    {
+      "id": "mie-goreng-telur-sayur",
+      "title": "Mie Goreng Telur Sayur",
+      "emoji": "🍜",
+      "cookTimeMin": 12,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 9000,
+      "tags": ["cepat", "kos"],
+      "steps": [
+        "Rebus mie hingga setengah matang, tiriskan.",
+        "Tumis bumbu mie dan cabai hingga harum, lalu masukkan telur dan orak-arik.",
+        "Tambahkan sawi dan sedikit air, masak hingga layu.",
+        "Masukkan mie dan kecap manis, aduk rata, lalu sajikan."
+      ],
+      "ingredients": [
+        {"catalogId": "mie-instan", "name": "Mie Instan", "amount": 2, "unit": "bungkus"},
+        {"catalogId": "telur", "name": "Telur", "amount": 2, "unit": "butir"},
+        {"catalogId": "sawi-hijau", "name": "Sawi Hijau", "amount": 1, "unit": "ikat"},
+        {"catalogId": "cabai-merah", "name": "Cabai Merah", "amount": 2, "unit": "pcs", "isOptional": true},
+        {"name": "Kecap Manis", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Minyak Goreng", "amount": 1, "unit": "pcs", "isStaple": true},
+        {"name": "Air", "amount": 300, "unit": "ml", "isStaple": true}
+      ]
+    },
+    {
+      "id": "salad-buah-yogurt",
+      "title": "Salad Buah Yogurt Segar",
+      "emoji": "🍎",
+      "cookTimeMin": 10,
+      "difficulty": "mudah",
+      "servings": 2,
+      "estimatedCostIdr": 15000,
+      "tags": ["cepat", "buah"],
+      "steps": [
+        "Potong apel, pisang, dan jeruk menjadi potongan kecil.",
+        "Campur semua buah dalam mangkuk.",
+        "Tuang yogurt di atasnya.",
+        "Aduk perlahan dan sajikan dingin."
+      ],
+      "ingredients": [
+        {"catalogId": "apel", "name": "Apel", "amount": 1, "unit": "pcs"},
+        {"catalogId": "pisang", "name": "Pisang", "amount": 1, "unit": "pcs"},
+        {"catalogId": "jeruk", "name": "Jeruk", "amount": 1, "unit": "pcs"},
+        {"catalogId": "yogurt", "name": "Yogurt", "amount": 1, "unit": "botol"}
+      ]
+    }
+  ]
+}

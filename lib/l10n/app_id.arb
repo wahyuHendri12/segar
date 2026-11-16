@@ -1,0 +1,2242 @@
+{
+  "@@locale": "id",
+  "appName": "Segar",
+  "@appName": {
+    "description": "Nama aplikasi"
+  },
+  "appTagline": "Pantry rapi, makanan terselamatkan.",
+  "@appTagline": {
+    "description": "Tagline singkat aplikasi"
+  },
+  "onboardingPrivacy": "Datamu tersimpan di HP ini saja.",
+  "@onboardingPrivacy": {
+    "description": "Janji privasi onboarding"
+  },
+  "onboardingStart": "Mulai Sekarang",
+  "@onboardingStart": {
+    "description": "Tombol utama onboarding"
+  },
+  "onboardingSkip": "Lewati",
+  "@onboardingSkip": {
+    "description": "Tombol lewati onboarding"
+  },
+  "navHome": "Beranda",
+  "@navHome": {
+    "description": "Label navigasi Beranda"
+  },
+  "navRecipes": "Resep",
+  "@navRecipes": {
+    "description": "Label navigasi Resep"
+  },
+  "navAdd": "Tambah",
+  "@navAdd": {
+    "description": "Label aksesibilitas tombol tambah"
+  },
+  "navStats": "Statistik",
+  "@navStats": {
+    "description": "Label navigasi Statistik"
+  },
+  "navProfile": "Profil",
+  "@navProfile": {
+    "description": "Label navigasi Profil"
+  },
+  "homeGreeting": "Halo, {name}! 👋",
+  "@homeGreeting": {
+    "description": "Sapaan di Beranda",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSubtitle": "Ini ringkasan pantry segarmu hari ini.",
+  "@homeSubtitle": {
+    "description": "Subjudul Beranda"
+  },
+  "homeSectionStatus": "Status dapur",
+  "@homeSectionStatus": {
+    "description": "Judul bagian status dapur"
+  },
+  "statusSoon": "Segera pakai",
+  "@statusSoon": {
+    "description": "Status bahan hampir basi"
+  },
+  "statusSafe": "Aman",
+  "@statusSafe": {
+    "description": "Status bahan aman"
+  },
+  "statusExpired": "Sudah basi",
+  "@statusExpired": {
+    "description": "Status bahan sudah basi"
+  },
+  "emptyPantryTitle": "Pantry masih kosong",
+  "@emptyPantryTitle": {
+    "description": "Judul state kosong Beranda"
+  },
+  "emptyPantryBody": "Tambahkan bahan pertama supaya Segar bisa mengingatkanmu sebelum terlambat.",
+  "@emptyPantryBody": {
+    "description": "Penjelasan state kosong Beranda"
+  },
+  "addFirstItem": "Tambah bahan pertama",
+  "@addFirstItem": {
+    "description": "Tombol state kosong Beranda"
+  },
+  "recipesTitle": "Olah Sebelum Basi",
+  "@recipesTitle": {
+    "description": "Judul layar Resep"
+  },
+  "recipesSubtitle": "Saran masakan dari bahan yang paling perlu diselamatkan.",
+  "@recipesSubtitle": {
+    "description": "Subjudul layar Resep"
+  },
+  "recipesEmptyTitle": "Belum ada saran resep",
+  "@recipesEmptyTitle": {
+    "description": "Judul state kosong Resep"
+  },
+  "recipesEmptyBody": "Tambahkan bahan ke pantry dulu, lalu Segar akan mencarikan resep yang cocok.",
+  "@recipesEmptyBody": {
+    "description": "Penjelasan state kosong Resep"
+  },
+  "recipesSmartMatchLabel": "SMART MATCH KULKAS",
+  "@recipesSmartMatchLabel": {
+    "description": "Label kartu smart match resep"
+  },
+  "recipesSmartMatchAuto": "Auto-Sync",
+  "@recipesSmartMatchAuto": {
+    "description": "Label sinkronisasi otomatis smart match"
+  },
+  "recipesSmartMatchBody": "{rescued} dari {total} bahan hampir basi bisa diselamatkan",
+  "@recipesSmartMatchBody": {
+    "description": "Ringkasan bahan hampir basi yang bisa diselamatkan resep",
+    "placeholders": {
+      "rescued": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesSmartMatchEmpty": "Belum ada bahan yang mendesak. Tetap masak dari stokmu!",
+  "@recipesSmartMatchEmpty": {
+    "description": "Ringkasan smart match saat tidak ada bahan mendesak"
+  },
+  "recipesFilterAll": "Semua Resep ({count})",
+  "@recipesFilterAll": {
+    "description": "Chip filter semua resep",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesFilterQuick": "Kilat < 15 Menit",
+  "@recipesFilterQuick": {
+    "description": "Chip filter resep kilat"
+  },
+  "recipesFilterKos": "Menu Kosan",
+  "@recipesFilterKos": {
+    "description": "Chip filter menu kosan"
+  },
+  "recipesFilterSoup": "Kuah Segar",
+  "@recipesFilterSoup": {
+    "description": "Chip filter resep kuah"
+  },
+  "recipesFilterStirFry": "Tumisan",
+  "@recipesFilterStirFry": {
+    "description": "Chip filter resep tumis"
+  },
+  "recipesSearchTitle": "Punya bahan lain?",
+  "@recipesSearchTitle": {
+    "description": "Judul pencarian bahan pada layar resep"
+  },
+  "recipesSearchBody": "Ketik bahan untuk mencari ide resep.",
+  "@recipesSearchBody": {
+    "description": "Penjelasan pencarian bahan resep"
+  },
+  "recipesSearchHint": "Contoh: tahu, wortel, keju...",
+  "@recipesSearchHint": {
+    "description": "Hint pencarian bahan resep"
+  },
+  "recipesSearchEmptyTitle": "Resep tidak ditemukan",
+  "@recipesSearchEmptyTitle": {
+    "description": "Judul state kosong hasil pencarian resep"
+  },
+  "recipesSearchEmptyBody": "Coba kata kunci atau kategori lain.",
+  "@recipesSearchEmptyBody": {
+    "description": "Penjelasan state kosong hasil pencarian resep"
+  },
+  "recipesNoPantryTitle": "Pantry masih kosong",
+  "@recipesNoPantryTitle": {
+    "description": "Judul state kosong resep saat pantry kosong"
+  },
+  "recipesNoPantryBody": "Tambahkan bahan dulu supaya Segar bisa mencarikan resep yang pas.",
+  "@recipesNoPantryBody": {
+    "description": "Penjelasan state kosong resep saat pantry kosong"
+  },
+  "recipesAddItemAction": "Tambah bahan",
+  "@recipesAddItemAction": {
+    "description": "Tombol menambah bahan dari layar resep"
+  },
+  "recipesLoadError": "Gagal memuat saran resep.",
+  "@recipesLoadError": {
+    "description": "Pesan gagal memuat daftar resep"
+  },
+  "recipesAvailableCount": "{owned} dari {total} bahan tersedia",
+  "@recipesAvailableCount": {
+    "description": "Ringkasan ketersediaan bahan resep",
+    "placeholders": {
+      "owned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesMissingCount": "Kurang {count} bahan",
+  "@recipesMissingCount": {
+    "description": "Jumlah bahan resep yang belum tersedia",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesCompleteBadge": "Bahan lengkap",
+  "@recipesCompleteBadge": {
+    "description": "Badge resep yang semua bahan wajibnya tersedia"
+  },
+  "recipesMatchPercent": "{score}% cocok",
+  "@recipesMatchPercent": {
+    "description": "Persentase kecocokan resep dengan isi pantry",
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesUrgentRescue": "{count} bahan segera dipakai",
+  "@recipesUrgentRescue": {
+    "description": "Jumlah bahan mendesak yang diselamatkan sebuah resep",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recipeCookTimeValue": "{minutes} menit",
+  "@recipeCookTimeValue": {
+    "description": "Durasi memasak resep",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "recipeServingsValue": "{count} porsi",
+  "@recipeServingsValue": {
+    "description": "Jumlah porsi resep",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "difficultyEasy": "Mudah",
+  "@difficultyEasy": {
+    "description": "Tingkat kesulitan mudah"
+  },
+  "difficultyMedium": "Sedang",
+  "@difficultyMedium": {
+    "description": "Tingkat kesulitan sedang"
+  },
+  "difficultyHard": "Sulit",
+  "@difficultyHard": {
+    "description": "Tingkat kesulitan sulit"
+  },
+  "statsTitle": "Penghematan & Jejak Dapur",
+  "@statsTitle": {
+    "description": "Judul layar Statistik"
+  },
+  "statsSubtitle": "Lihat dampak baik dari kebiasaan memasakmu.",
+  "@statsSubtitle": {
+    "description": "Subjudul layar Statistik"
+  },
+  "statsEmptyTitle": "Belum ada statistik",
+  "@statsEmptyTitle": {
+    "description": "Judul state kosong Statistik"
+  },
+  "statsEmptyBody": "Statistik akan muncul setelah kamu menandai bahan terpakai atau terbuang.",
+  "@statsEmptyBody": {
+    "description": "Penjelasan state kosong Statistik"
+  },
+  "settingsTitle": "Profil & Pengaturan",
+  "@settingsTitle": {
+    "description": "Judul layar pengaturan"
+  },
+  "settingsSubtitle": "Atur pengalaman Segar sesuai kebiasaanmu.",
+  "@settingsSubtitle": {
+    "description": "Subjudul layar pengaturan"
+  },
+  "defaultUserName": "Teman Segar",
+  "@defaultUserName": {
+    "description": "Nama panggilan default"
+  },
+  "themeTitle": "Tampilan",
+  "@themeTitle": {
+    "description": "Judul pengaturan tema"
+  },
+  "themeSystem": "Ikuti sistem",
+  "@themeSystem": {
+    "description": "Opsi tema mengikuti sistem"
+  },
+  "themeLight": "Terang",
+  "@themeLight": {
+    "description": "Opsi tema terang"
+  },
+  "themeDark": "Gelap",
+  "@themeDark": {
+    "description": "Opsi tema gelap"
+  },
+  "aboutTitle": "Tentang Segar",
+  "@aboutTitle": {
+    "description": "Judul layar tentang"
+  },
+  "aboutDataTitle": "Tentang data",
+  "@aboutDataTitle": {
+    "description": "Judul bagian atribusi data"
+  },
+  "aboutAttributionOff": "Data produk dari Open Food Facts (ODbL).",
+  "@aboutAttributionOff": {
+    "description": "Atribusi Open Food Facts"
+  },
+  "aboutAttributionMealDb": "Resep tambahan dari TheMealDB.",
+  "@aboutAttributionMealDb": {
+    "description": "Atribusi TheMealDB"
+  },
+  "aboutVersion": "Versi {version}",
+  "@aboutVersion": {
+    "description": "Versi aplikasi",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsHelpTitle": "Pengingat tidak muncul?",
+  "@notificationsHelpTitle": {
+    "description": "Judul bantuan notifikasi"
+  },
+  "notifSettingsTitle": "Notifikasi",
+  "@notifSettingsTitle": {
+    "description": "Judul bagian pengaturan notifikasi"
+  },
+  "notifEnableLabel": "Aktifkan pengingat",
+  "@notifEnableLabel": {
+    "description": "Label sakelar notifikasi"
+  },
+  "notifEnableBody": "Ingatkan sebelum bahan mendekati tanggal basi.",
+  "@notifEnableBody": {
+    "description": "Penjelasan sakelar notifikasi"
+  },
+  "notifTimeLabel": "Jam pengingat",
+  "@notifTimeLabel": {
+    "description": "Label jam pengingat"
+  },
+  "notifTimeBody": "Pengingat dikirim sekali sehari pada jam ini.",
+  "@notifTimeBody": {
+    "description": "Penjelasan jam pengingat"
+  },
+  "notifWarnLabel": "Ingatkan sebelum",
+  "@notifWarnLabel": {
+    "description": "Label ambang pengingat"
+  },
+  "notifWarnBody": "Pilih berapa hari sebelum tanggal basi.",
+  "@notifWarnBody": {
+    "description": "Penjelasan ambang pengingat"
+  },
+  "notifWarnDays": "{days} hari",
+  "@notifWarnDays": {
+    "description": "Jumlah hari pengingat",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "notifQuietTitle": "Jam tenang",
+  "@notifQuietTitle": {
+    "description": "Judul jam tenang"
+  },
+  "notifQuietBody": "Tunda pengingat agar tidak mengganggu waktu istirahat.",
+  "@notifQuietBody": {
+    "description": "Penjelasan jam tenang"
+  },
+  "notifQuietStart": "Mulai",
+  "@notifQuietStart": {
+    "description": "Label awal jam tenang"
+  },
+  "notifQuietEnd": "Selesai",
+  "@notifQuietEnd": {
+    "description": "Label akhir jam tenang"
+  },
+  "notifHelpEntry": "Panduan pengingat",
+  "@notifHelpEntry": {
+    "description": "Entri menuju bantuan notifikasi"
+  },
+  "notifPermissionDenied": "Izin notifikasi belum diberikan. Aktifkan lewat pengaturan HP.",
+  "@notifPermissionDenied": {
+    "description": "Pesan izin notifikasi ditolak"
+  },
+  "notifOpenSettingsAction": "Pengaturan",
+  "@notifOpenSettingsAction": {
+    "description": "Label aksi membuka pengaturan"
+  },
+  "notifPermissionGranted": "Notifikasi siap digunakan.",
+  "@notifPermissionGranted": {
+    "description": "Pesan izin notifikasi aktif"
+  },
+  "notifTestTitle": "Coba notifikasi",
+  "@notifTestTitle": {
+    "description": "Judul aksi coba notifikasi"
+  },
+  "notifTestBody": "Kirim notifikasi percobaan sekarang.",
+  "@notifTestBody": {
+    "description": "Penjelasan aksi coba notifikasi"
+  },
+  "notifTestSent": "Notifikasi percobaan dikirim.",
+  "@notifTestSent": {
+    "description": "Pesan notifikasi percobaan terkirim"
+  },
+  "notifTestFailed": "Gagal mengirim notifikasi percobaan. Periksa izin notifikasi.",
+  "@notifTestFailed": {
+    "description": "Pesan notifikasi percobaan gagal"
+  },
+  "notifTitleSoon": "{name} segera basi",
+  "@notifTitleSoon": {
+    "description": "Judul notifikasi bahan hampir basi",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBodySoon": "Tinggal {days} hari. Yuk pakai sebelum terbuang.",
+  "@notifBodySoon": {
+    "description": "Isi notifikasi bahan hampir basi",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "notifTitleToday": "{name} basi hari ini",
+  "@notifTitleToday": {
+    "description": "Judul notifikasi bahan basi hari ini",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBodyToday": "Segera pakai atau olah bahan ini hari ini.",
+  "@notifBodyToday": {
+    "description": "Isi notifikasi bahan basi hari ini"
+  },
+  "notifTestNotificationTitle": "Segar siap mengingatkanmu",
+  "@notifTestNotificationTitle": {
+    "description": "Judul notifikasi percobaan"
+  },
+  "notifTestNotificationBody": "Ini contoh pengingat kesegaran bahan.",
+  "@notifTestNotificationBody": {
+    "description": "Isi notifikasi percobaan"
+  },
+  "notificationsHelpIntro": "Pengingat Segar bekerja tanpa internet. Jika notifikasi tidak muncul, biasanya ada izin atau penghemat baterai yang menghalangi.",
+  "@notificationsHelpIntro": {
+    "description": "Pengantar bantuan notifikasi"
+  },
+  "notificationsHelpStepsTitle": "Langkah cepat",
+  "@notificationsHelpStepsTitle": {
+    "description": "Judul langkah bantuan notifikasi"
+  },
+  "notificationsHelpStepPermission": "Pastikan izin notifikasi untuk Segar sudah diizinkan di pengaturan HP.",
+  "@notificationsHelpStepPermission": {
+    "description": "Langkah izin notifikasi"
+  },
+  "notificationsHelpStepBattery": "Matikan penghemat baterai atau atur Segar sebagai aplikasi yang tidak dibatasi.",
+  "@notificationsHelpStepBattery": {
+    "description": "Langkah penghemat baterai"
+  },
+  "notificationsHelpStepAutostart": "Izinkan autostart agar pengingat tetap terjadwal setelah HP dimulai ulang.",
+  "@notificationsHelpStepAutostart": {
+    "description": "Langkah autostart"
+  },
+  "notificationsHelpBrandsTitle": "Panduan merek HP",
+  "@notificationsHelpBrandsTitle": {
+    "description": "Judul panduan merek HP"
+  },
+  "notificationsHelpBrandsBody": "Xiaomi: Autostart + tanpa batasan baterai. Oppo/Realme: Izinkan auto-launch. Vivo: Autostart + background power. Samsung: keluarkan Segar dari daftar aplikasi tidur.",
+  "@notificationsHelpBrandsBody": {
+    "description": "Panduan singkat merek HP"
+  },
+  "notificationsHelpOpenSettings": "Buka pengaturan aplikasi",
+  "@notificationsHelpOpenSettings": {
+    "description": "Tombol buka pengaturan aplikasi"
+  },
+  "notificationsHelpTest": "Kirim notifikasi percobaan",
+  "@notificationsHelpTest": {
+    "description": "Tombol kirim notifikasi percobaan"
+  },
+  "notificationsHelpTestSent": "Notifikasi percobaan dikirim. Cek laci notifikasi.",
+  "@notificationsHelpTestSent": {
+    "description": "Pesan notifikasi percobaan terkirim dari bantuan"
+  },
+  "notificationsHelpTestFailed": "Notifikasi percobaan gagal dikirim.",
+  "@notificationsHelpTestFailed": {
+    "description": "Pesan notifikasi percobaan gagal dari bantuan"
+  },
+  "notificationsHelpPermissionTitle": "Status izin",
+  "@notificationsHelpPermissionTitle": {
+    "description": "Judul status izin notifikasi"
+  },
+  "notificationsHelpPermissionOn": "Izin notifikasi aktif.",
+  "@notificationsHelpPermissionOn": {
+    "description": "Status izin notifikasi aktif"
+  },
+  "notificationsHelpPermissionOff": "Izin notifikasi belum aktif.",
+  "@notificationsHelpPermissionOff": {
+    "description": "Status izin notifikasi belum aktif"
+  },
+  "notificationsHelpEnablePermission": "Minta izin notifikasi",
+  "@notificationsHelpEnablePermission": {
+    "description": "Tombol minta izin notifikasi"
+  },
+  "backupTitle": "Cadangan & pemulihan",
+  "@backupTitle": {
+    "description": "Judul fitur cadangan"
+  },
+  "addItemTitle": "Tambah Bahan",
+  "@addItemTitle": {
+    "description": "Judul layar tambah bahan"
+  },
+  "itemDetailTitle": "Detail Bahan",
+  "@itemDetailTitle": {
+    "description": "Judul layar detail bahan"
+  },
+  "recipeDetailTitle": "Detail Resep",
+  "@recipeDetailTitle": {
+    "description": "Judul layar detail resep"
+  },
+  "recipeDetailServingsTitle": "Atur porsi",
+  "@recipeDetailServingsTitle": {
+    "description": "Judul pengatur porsi resep"
+  },
+  "recipeDetailServingsHint": "Jumlah bahan menyesuaikan otomatis.",
+  "@recipeDetailServingsHint": {
+    "description": "Penjelasan pengatur porsi resep"
+  },
+  "recipeDetailDecreaseServings": "Kurangi porsi",
+  "@recipeDetailDecreaseServings": {
+    "description": "Tooltip tombol kurangi porsi"
+  },
+  "recipeDetailIncreaseServings": "Tambah porsi",
+  "@recipeDetailIncreaseServings": {
+    "description": "Tooltip tombol tambah porsi"
+  },
+  "recipeDetailIngredientsTitle": "Bahan-bahan",
+  "@recipeDetailIngredientsTitle": {
+    "description": "Judul bagian bahan resep"
+  },
+  "recipeDetailIngredientsCount": "{owned} dari {total} bahan tersedia",
+  "@recipeDetailIngredientsCount": {
+    "description": "Ringkasan ketersediaan bahan pada detail resep",
+    "placeholders": {
+      "owned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recipeDetailStepsTitle": "Cara membuat",
+  "@recipeDetailStepsTitle": {
+    "description": "Judul bagian langkah memasak"
+  },
+  "recipeDetailStepLabel": "Langkah {index}",
+  "@recipeDetailStepLabel": {
+    "description": "Label nomor langkah memasak",
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "recipeDetailAvailable": "Tersedia",
+  "@recipeDetailAvailable": {
+    "description": "Status bahan resep yang tersedia di pantry"
+  },
+  "recipeDetailMissing": "Belum ada",
+  "@recipeDetailMissing": {
+    "description": "Status bahan resep yang belum tersedia"
+  },
+  "recipeDetailOptional": "Opsional",
+  "@recipeDetailOptional": {
+    "description": "Penanda bahan opsional resep"
+  },
+  "recipeDetailStaple": "Bahan dasar",
+  "@recipeDetailStaple": {
+    "description": "Penanda bahan dasar yang biasanya sudah ada"
+  },
+  "recipeDetailUrgent": "Segera dipakai",
+  "@recipeDetailUrgent": {
+    "description": "Penanda bahan resep yang hampir basi"
+  },
+  "recipeDetailMissingTitle": "Bahan belum lengkap",
+  "@recipeDetailMissingTitle": {
+    "description": "Judul catatan bahan resep yang belum lengkap"
+  },
+  "recipeDetailMissingBody": "Kamu masih punya {count} bahan lain yang bisa dipakai.",
+  "@recipeDetailMissingBody": {
+    "description": "Penjelasan bahan resep yang belum tersedia",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recipeDetailCook": "Masak sekarang",
+  "@recipeDetailCook": {
+    "description": "Tombol masak resep"
+  },
+  "recipeDetailCookPartial": "Masak dengan bahan tersedia",
+  "@recipeDetailCookPartial": {
+    "description": "Tombol masak saat sebagian bahan belum tersedia"
+  },
+  "recipeDetailCookSheetTitle": "Masak resep ini?",
+  "@recipeDetailCookSheetTitle": {
+    "description": "Judul sheet konfirmasi masak"
+  },
+  "recipeDetailCookSheetBody": "Bahan yang dicentang akan dikurangi dari pantry.",
+  "@recipeDetailCookSheetBody": {
+    "description": "Penjelasan sheet konfirmasi masak"
+  },
+  "recipeDetailCookSheetEmpty": "Belum ada bahan yang bisa dikurangi.",
+  "@recipeDetailCookSheetEmpty": {
+    "description": "Pesan saat tidak ada bahan resep yang cocok dengan pantry"
+  },
+  "recipeDetailCookConfirm": "Masak & kurangi stok",
+  "@recipeDetailCookConfirm": {
+    "description": "Tombol konfirmasi masak"
+  },
+  "recipeDetailCookSuccess": "Resep dimasak. Stok pantry diperbarui.",
+  "@recipeDetailCookSuccess": {
+    "description": "Pesan sukses memasak resep"
+  },
+  "recipeDetailCookNothing": "Tidak ada bahan yang dipilih.",
+  "@recipeDetailCookNothing": {
+    "description": "Pesan saat pengguna tidak memilih bahan untuk dimasak"
+  },
+  "recipeDetailSelectAll": "Pilih semua",
+  "@recipeDetailSelectAll": {
+    "description": "Tombol memilih semua bahan pada sheet masak"
+  },
+  "recipeDetailSelectedCount": "{count} bahan dipilih",
+  "@recipeDetailSelectedCount": {
+    "description": "Jumlah bahan terpilih pada sheet masak",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "recipeDetailNotFoundTitle": "Resep tidak ditemukan",
+  "@recipeDetailNotFoundTitle": {
+    "description": "Judul resep tidak ditemukan"
+  },
+  "recipeDetailNotFoundBody": "Resep ini mungkin sudah tidak tersedia.",
+  "@recipeDetailNotFoundBody": {
+    "description": "Penjelasan resep tidak ditemukan"
+  },
+  "recipeDetailLoadError": "Gagal memuat resep.",
+  "@recipeDetailLoadError": {
+    "description": "Pesan gagal memuat detail resep"
+  },
+  "recipeDetailCostLabel": "Estimasi biaya",
+  "@recipeDetailCostLabel": {
+    "description": "Label estimasi biaya resep"
+  },
+  "recipeDetailTimeLabel": "Waktu masak",
+  "@recipeDetailTimeLabel": {
+    "description": "Label waktu masak resep"
+  },
+  "recipeDetailDifficultyLabel": "Tingkat kesulitan",
+  "@recipeDetailDifficultyLabel": {
+    "description": "Label tingkat kesulitan resep"
+  },
+  "recipeDetailMatchLabel": "{score}% cocok",
+  "@recipeDetailMatchLabel": {
+    "description": "Persentase kecocokan resep pada detail",
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingListTitle": "Daftar Belanja",
+  "@shoppingListTitle": {
+    "description": "Judul layar daftar belanja"
+  },
+  "genericBack": "Kembali",
+  "@genericBack": {
+    "description": "Label tombol kembali"
+  },
+  "genericClose": "Tutup",
+  "@genericClose": {
+    "description": "Label tombol tutup"
+  },
+  "dataPrivacyTitle": "Privasi",
+  "@dataPrivacyTitle": {
+    "description": "Judul bagian privasi"
+  },
+  "dataPrivacyBody": "Data pantry disimpan lokal di perangkat ini. Hanya nomor barcode atau kata kunci pencarian yang dikirim saat fitur online diaktifkan.",
+  "@dataPrivacyBody": {
+    "description": "Penjelasan privasi"
+  },
+  "genericCancel": "Batal",
+  "@genericCancel": {
+    "description": "Tombol batal"
+  },
+  "genericSave": "Simpan",
+  "@genericSave": {
+    "description": "Tombol simpan"
+  },
+  "genericDelete": "Hapus",
+  "@genericDelete": {
+    "description": "Tombol hapus"
+  },
+  "genericEdit": "Ubah",
+  "@genericEdit": {
+    "description": "Tombol ubah"
+  },
+  "genericRetry": "Coba lagi",
+  "@genericRetry": {
+    "description": "Tombol coba lagi"
+  },
+  "genericAll": "Semua",
+  "@genericAll": {
+    "description": "Label semua"
+  },
+  "homeSearchHint": "Cari bahan...",
+  "@homeSearchHint": {
+    "description": "Hint pencarian bahan di Beranda"
+  },
+  "homeSortExpiry": "Paling cepat basi",
+  "@homeSortExpiry": {
+    "description": "Opsi urutkan berdasarkan tanggal basi"
+  },
+  "homeSortName": "Nama A-Z",
+  "@homeSortName": {
+    "description": "Opsi urutkan berdasarkan nama"
+  },
+  "homeSortNewest": "Terbaru",
+  "@homeSortNewest": {
+    "description": "Opsi urutkan berdasarkan waktu ditambahkan"
+  },
+  "homeSortTooltip": "Urutkan bahan",
+  "@homeSortTooltip": {
+    "description": "Tooltip tombol urutkan"
+  },
+  "homeUrgentTitle": "Segera dipakai",
+  "@homeUrgentTitle": {
+    "description": "Judul grup bahan yang hampir basi"
+  },
+  "homeSafeTitle": "Kondisi aman",
+  "@homeSafeTitle": {
+    "description": "Judul grup bahan yang masih aman"
+  },
+  "homeExpiredTitle": "Sudah basi",
+  "@homeExpiredTitle": {
+    "description": "Judul grup bahan yang sudah basi"
+  },
+  "homeItemsTitle": "Bahan di pantry",
+  "@homeItemsTitle": {
+    "description": "Judul daftar bahan di Beranda"
+  },
+  "homeItemsCount": "{count} bahan",
+  "@homeItemsCount": {
+    "description": "Jumlah bahan pada grup",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeNoResultsTitle": "Bahan tidak ditemukan",
+  "@homeNoResultsTitle": {
+    "description": "Judul state kosong hasil pencarian"
+  },
+  "homeNoResultsBody": "Coba kata kunci lain atau ubah filter lokasi.",
+  "@homeNoResultsBody": {
+    "description": "Penjelasan state kosong hasil pencarian"
+  },
+  "homeClearFilters": "Hapus filter",
+  "@homeClearFilters": {
+    "description": "Tombol menghapus filter Beranda"
+  },
+  "homeReminderTitle": "PENGINGAT HARI INI",
+  "@homeReminderTitle": {
+    "description": "Judul banner pengingat Beranda"
+  },
+  "homeReminderBody": "{count} bahan perlu segera dipakai.",
+  "@homeReminderBody": {
+    "description": "Isi banner pengingat Beranda",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeLoadError": "Gagal memuat pantry.",
+  "@homeLoadError": {
+    "description": "Pesan gagal memuat pantry"
+  },
+  "homeStatusUpdate": "Diperbarui otomatis",
+  "@homeStatusUpdate": {
+    "description": "Keterangan status diperbarui otomatis"
+  },
+  "formEditTitle": "Ubah Bahan",
+  "@formEditTitle": {
+    "description": "Judul layar ubah bahan"
+  },
+  "formSubtitle": "Catat bahan supaya Segar bisa mengingatkanmu.",
+  "@formSubtitle": {
+    "description": "Subjudul form bahan"
+  },
+  "formPopularTitle": "Bahan populer",
+  "@formPopularTitle": {
+    "description": "Judul pilihan bahan populer"
+  },
+  "formSearchCatalog": "Cari di katalog",
+  "@formSearchCatalog": {
+    "description": "Tombol membuka pencarian katalog"
+  },
+  "formNameLabel": "Nama bahan",
+  "@formNameLabel": {
+    "description": "Label nama bahan"
+  },
+  "formNameHint": "Contoh: Bayam hijau",
+  "@formNameHint": {
+    "description": "Hint nama bahan"
+  },
+  "formNameRequired": "Nama bahan wajib diisi.",
+  "@formNameRequired": {
+    "description": "Validasi nama bahan"
+  },
+  "formQuantityLabel": "Jumlah",
+  "@formQuantityLabel": {
+    "description": "Label jumlah bahan"
+  },
+  "formQuantityInvalid": "Jumlah harus lebih dari 0.",
+  "@formQuantityInvalid": {
+    "description": "Validasi jumlah bahan"
+  },
+  "formUnitLabel": "Satuan",
+  "@formUnitLabel": {
+    "description": "Label satuan bahan"
+  },
+  "formCategoryLabel": "Kategori",
+  "@formCategoryLabel": {
+    "description": "Label kategori bahan"
+  },
+  "formPurchaseDateLabel": "Tanggal beli",
+  "@formPurchaseDateLabel": {
+    "description": "Label tanggal beli"
+  },
+  "formExpiryDateLabel": "Tanggal basi",
+  "@formExpiryDateLabel": {
+    "description": "Label tanggal basi"
+  },
+  "formExpiryEstimate": "Estimasi otomatis",
+  "@formExpiryEstimate": {
+    "description": "Label tanggal basi hasil estimasi"
+  },
+  "formExpiryManual": "Diatur manual",
+  "@formExpiryManual": {
+    "description": "Label tanggal basi diatur manual"
+  },
+  "formPriceLabel": "Harga (opsional)",
+  "@formPriceLabel": {
+    "description": "Label harga bahan"
+  },
+  "formPriceHint": "Contoh: 5000",
+  "@formPriceHint": {
+    "description": "Hint harga bahan"
+  },
+  "formPriceInvalid": "Harga harus berupa angka.",
+  "@formPriceInvalid": {
+    "description": "Validasi harga bahan"
+  },
+  "formNoteLabel": "Catatan (opsional)",
+  "@formNoteLabel": {
+    "description": "Label catatan bahan"
+  },
+  "formNoteHint": "Contoh: beli di pasar pagi",
+  "@formNoteHint": {
+    "description": "Hint catatan bahan"
+  },
+  "formNotifyLabel": "Ingatkan sebelum basi",
+  "@formNotifyLabel": {
+    "description": "Label pengingat notifikasi"
+  },
+  "formNotifyBody": "Pengingat mengikuti pengaturan notifikasi.",
+  "@formNotifyBody": {
+    "description": "Penjelasan pengingat notifikasi"
+  },
+  "formSave": "Simpan bahan",
+  "@formSave": {
+    "description": "Tombol simpan bahan baru"
+  },
+  "formUpdate": "Simpan perubahan",
+  "@formUpdate": {
+    "description": "Tombol simpan perubahan bahan"
+  },
+  "formSaved": "Bahan berhasil disimpan.",
+  "@formSaved": {
+    "description": "Pesan bahan berhasil disimpan"
+  },
+  "formUpdated": "Perubahan berhasil disimpan.",
+  "@formUpdated": {
+    "description": "Pesan perubahan berhasil disimpan"
+  },
+  "formSaveError": "Gagal menyimpan bahan. Coba lagi.",
+  "@formSaveError": {
+    "description": "Pesan gagal menyimpan bahan"
+  },
+  "formExpiryBeforePurchase": "Tanggal basi tidak boleh sebelum tanggal beli.",
+  "@formExpiryBeforePurchase": {
+    "description": "Validasi tanggal basi"
+  },
+  "formShelfLifeInfo": "Umur simpan di {location}: {days} hari",
+  "@formShelfLifeInfo": {
+    "description": "Info umur simpan katalog",
+    "placeholders": {
+      "location": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "formShelfLifeUnknown": "Belum ada estimasi umur simpan untuk lokasi ini.",
+  "@formShelfLifeUnknown": {
+    "description": "Info umur simpan tidak tersedia"
+  },
+  "formSectionDetails": "Detail bahan",
+  "@formSectionDetails": {
+    "description": "Judul bagian detail form"
+  },
+  "formSectionStorage": "Penyimpanan",
+  "@formSectionStorage": {
+    "description": "Judul bagian penyimpanan form"
+  },
+  "formSectionOptional": "Tambahan",
+  "@formSectionOptional": {
+    "description": "Judul bagian tambahan form"
+  },
+  "formCustomIngredient": "Bahan manual",
+  "@formCustomIngredient": {
+    "description": "Label bahan manual di luar katalog"
+  },
+  "formCatalogSearchHint": "Cari bahan...",
+  "@formCatalogSearchHint": {
+    "description": "Hint pencarian katalog"
+  },
+  "formCatalogEmpty": "Bahan tidak ditemukan. Kamu tetap bisa menambahkannya manual.",
+  "@formCatalogEmpty": {
+    "description": "Pesan katalog kosong"
+  },
+  "detailFreshness": "Status kesegaran",
+  "@detailFreshness": {
+    "description": "Judul status kesegaran"
+  },
+  "detailDaysLeft": "Sisa {days} hari",
+  "@detailDaysLeft": {
+    "description": "Sisa hari sebelum basi",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "detailExpiresToday": "Basi hari ini",
+  "@detailExpiresToday": {
+    "description": "Label basi hari ini"
+  },
+  "detailExpiresTomorrow": "Basi besok",
+  "@detailExpiresTomorrow": {
+    "description": "Label basi besok"
+  },
+  "detailExpiresInDays": "Basi {days} hari lagi",
+  "@detailExpiresInDays": {
+    "description": "Label basi beberapa hari lagi",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "detailExpiredDaysAgo": "Basi {days} hari lalu",
+  "@detailExpiredDaysAgo": {
+    "description": "Label sudah basi beberapa hari",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "detailExpiredYesterday": "Basi kemarin",
+  "@detailExpiredYesterday": {
+    "description": "Label sudah basi kemarin"
+  },
+  "detailQuantity": "Jumlah",
+  "@detailQuantity": {
+    "description": "Label jumlah di detail"
+  },
+  "detailCategory": "Kategori",
+  "@detailCategory": {
+    "description": "Label kategori di detail"
+  },
+  "detailStorage": "Lokasi simpan",
+  "@detailStorage": {
+    "description": "Label lokasi di detail"
+  },
+  "detailPurchasedOn": "Dibeli",
+  "@detailPurchasedOn": {
+    "description": "Label tanggal beli di detail"
+  },
+  "detailExpiresOn": "Tanggal basi",
+  "@detailExpiresOn": {
+    "description": "Label tanggal basi di detail"
+  },
+  "detailPrice": "Harga",
+  "@detailPrice": {
+    "description": "Label harga di detail"
+  },
+  "detailNote": "Catatan",
+  "@detailNote": {
+    "description": "Label catatan di detail"
+  },
+  "detailTipsTitle": "Tips penyimpanan",
+  "@detailTipsTitle": {
+    "description": "Judul tips penyimpanan"
+  },
+  "detailNoTips": "Belum ada tips untuk bahan ini.",
+  "@detailNoTips": {
+    "description": "Pesan tips kosong"
+  },
+  "detailActionsTitle": "Aksi cepat",
+  "@detailActionsTitle": {
+    "description": "Judul aksi cepat detail"
+  },
+  "detailInfoTitle": "Informasi bahan",
+  "@detailInfoTitle": {
+    "description": "Judul informasi bahan"
+  },
+  "detailShelfLife": "Umur simpan",
+  "@detailShelfLife": {
+    "description": "Label umur simpan"
+  },
+  "detailNotifOn": "Pengingat aktif",
+  "@detailNotifOn": {
+    "description": "Label pengingat aktif"
+  },
+  "detailNotifOff": "Pengingat mati",
+  "@detailNotifOff": {
+    "description": "Label pengingat mati"
+  },
+  "detailValueHint": "Nilai dihitung dari harga bahan atau estimasi katalog.",
+  "@detailValueHint": {
+    "description": "Penjelasan perhitungan nilai"
+  },
+  "detailMarkUsed": "Tandai terpakai",
+  "@detailMarkUsed": {
+    "description": "Aksi tandai terpakai"
+  },
+  "detailMarkWasted": "Tandai terbuang",
+  "@detailMarkWasted": {
+    "description": "Aksi tandai terbuang"
+  },
+  "detailPartial": "Pakai sebagian",
+  "@detailPartial": {
+    "description": "Aksi pakai sebagian"
+  },
+  "detailEdit": "Ubah bahan",
+  "@detailEdit": {
+    "description": "Aksi ubah bahan"
+  },
+  "detailDelete": "Hapus bahan",
+  "@detailDelete": {
+    "description": "Aksi hapus bahan"
+  },
+  "detailNotFoundTitle": "Bahan tidak ditemukan",
+  "@detailNotFoundTitle": {
+    "description": "Judul bahan tidak ditemukan"
+  },
+  "detailNotFoundBody": "Bahan ini mungkin sudah dihapus.",
+  "@detailNotFoundBody": {
+    "description": "Penjelasan bahan tidak ditemukan"
+  },
+  "detailLoadError": "Gagal memuat detail bahan.",
+  "@detailLoadError": {
+    "description": "Pesan gagal memuat detail"
+  },
+  "actionUsedSuccess": "Bahan ditandai terpakai.",
+  "@actionUsedSuccess": {
+    "description": "Pesan bahan terpakai"
+  },
+  "actionWastedSuccess": "Bahan ditandai terbuang.",
+  "@actionWastedSuccess": {
+    "description": "Pesan bahan terbuang"
+  },
+  "actionPartialSuccess": "Pemakaian sebagian dicatat.",
+  "@actionPartialSuccess": {
+    "description": "Pesan pemakaian sebagian"
+  },
+  "actionDeleted": "Bahan dihapus dari pantry.",
+  "@actionDeleted": {
+    "description": "Pesan bahan dihapus"
+  },
+  "actionUndo": "Urungkan",
+  "@actionUndo": {
+    "description": "Aksi urungkan"
+  },
+  "actionFailed": "Aksi gagal. Coba lagi.",
+  "@actionFailed": {
+    "description": "Pesan aksi gagal"
+  },
+  "valueSaved": "Nilai terselamatkan: {amount}",
+  "@valueSaved": {
+    "description": "Nilai bahan yang diselamatkan",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "valueWasted": "Nilai terbuang: {amount}",
+  "@valueWasted": {
+    "description": "Nilai bahan yang terbuang",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "valueEstimateSuffix": " (estimasi)",
+  "@valueEstimateSuffix": {
+    "description": "Penanda nilai estimasi"
+  },
+  "deleteConfirmTitle": "Hapus bahan?",
+  "@deleteConfirmTitle": {
+    "description": "Judul konfirmasi hapus"
+  },
+  "deleteConfirmBody": "Bahan akan dihapus dari pantry. Riwayat pemakaian tetap disimpan.",
+  "@deleteConfirmBody": {
+    "description": "Isi konfirmasi hapus"
+  },
+  "deleteConfirmAction": "Hapus",
+  "@deleteConfirmAction": {
+    "description": "Tombol konfirmasi hapus"
+  },
+  "partialSheetTitle": "Pakai sebagian",
+  "@partialSheetTitle": {
+    "description": "Judul sheet pakai sebagian"
+  },
+  "partialSheetBody": "Berapa banyak {name} yang dipakai?",
+  "@partialSheetBody": {
+    "description": "Isi sheet pakai sebagian",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "partialUsedLabel": "Jumlah dipakai",
+  "@partialUsedLabel": {
+    "description": "Label jumlah dipakai"
+  },
+  "partialQuickQuarter": "¼",
+  "@partialQuickQuarter": {
+    "description": "Tombol cepat seperempat"
+  },
+  "partialQuickHalf": "½",
+  "@partialQuickHalf": {
+    "description": "Tombol cepat setengah"
+  },
+  "partialQuickAll": "Semua",
+  "@partialQuickAll": {
+    "description": "Tombol cepat semua"
+  },
+  "partialSave": "Catat pemakaian",
+  "@partialSave": {
+    "description": "Tombol catat pemakaian"
+  },
+  "partialInvalid": "Jumlah harus lebih dari 0 dan tidak melebihi stok.",
+  "@partialInvalid": {
+    "description": "Validasi jumlah pakai sebagian"
+  },
+  "partialRemaining": "Sisa stok: {amount} {unit}",
+  "@partialRemaining": {
+    "description": "Info sisa stok",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteSheetTitle": "Tandai terbuang",
+  "@wasteSheetTitle": {
+    "description": "Judul sheet terbuang"
+  },
+  "wasteSheetBody": "Pilih alasan supaya statistikmu lebih akurat.",
+  "@wasteSheetBody": {
+    "description": "Isi sheet terbuang"
+  },
+  "wasteReasonBasi": "Basi",
+  "@wasteReasonBasi": {
+    "description": "Alasan basi"
+  },
+  "wasteReasonLupa": "Lupa",
+  "@wasteReasonLupa": {
+    "description": "Alasan lupa"
+  },
+  "wasteReasonTerlaluBanyak": "Terlalu banyak",
+  "@wasteReasonTerlaluBanyak": {
+    "description": "Alasan terlalu banyak"
+  },
+  "wasteReasonRasaBerubah": "Rasa berubah",
+  "@wasteReasonRasaBerubah": {
+    "description": "Alasan rasa berubah"
+  },
+  "wasteReasonLainnya": "Lainnya",
+  "@wasteReasonLainnya": {
+    "description": "Alasan lainnya"
+  },
+  "wasteSave": "Tandai terbuang",
+  "@wasteSave": {
+    "description": "Tombol simpan alasan terbuang"
+  },
+  "unitPcs": "pcs",
+  "@unitPcs": {
+    "description": "Satuan pcs"
+  },
+  "unitGram": "gram",
+  "@unitGram": {
+    "description": "Satuan gram"
+  },
+  "unitKg": "kg",
+  "@unitKg": {
+    "description": "Satuan kg"
+  },
+  "unitMl": "ml",
+  "@unitMl": {
+    "description": "Satuan ml"
+  },
+  "unitLiter": "liter",
+  "@unitLiter": {
+    "description": "Satuan liter"
+  },
+  "unitIkat": "ikat",
+  "@unitIkat": {
+    "description": "Satuan ikat"
+  },
+  "unitBungkus": "bungkus",
+  "@unitBungkus": {
+    "description": "Satuan bungkus"
+  },
+  "unitBotol": "botol",
+  "@unitBotol": {
+    "description": "Satuan botol"
+  },
+  "unitKaleng": "kaleng",
+  "@unitKaleng": {
+    "description": "Satuan kaleng"
+  },
+  "unitButir": "butir",
+  "@unitButir": {
+    "description": "Satuan butir"
+  },
+  "unitSiung": "siung",
+  "@unitSiung": {
+    "description": "Satuan siung"
+  },
+  "categorySayur": "Sayur",
+  "@categorySayur": {
+    "description": "Kategori sayur"
+  },
+  "categoryBuah": "Buah",
+  "@categoryBuah": {
+    "description": "Kategori buah"
+  },
+  "categoryDaging": "Daging",
+  "@categoryDaging": {
+    "description": "Kategori daging"
+  },
+  "categoryIkanSeafood": "Ikan & seafood",
+  "@categoryIkanSeafood": {
+    "description": "Kategori ikan dan seafood"
+  },
+  "categoryTelurSusu": "Telur & susu",
+  "@categoryTelurSusu": {
+    "description": "Kategori telur dan susu"
+  },
+  "categoryBumbu": "Bumbu",
+  "@categoryBumbu": {
+    "description": "Kategori bumbu"
+  },
+  "categoryBahanKering": "Bahan kering",
+  "@categoryBahanKering": {
+    "description": "Kategori bahan kering"
+  },
+  "categoryMinuman": "Minuman",
+  "@categoryMinuman": {
+    "description": "Kategori minuman"
+  },
+  "categoryMakananOlahan": "Makanan olahan",
+  "@categoryMakananOlahan": {
+    "description": "Kategori makanan olahan"
+  },
+  "categoryLainnya": "Lainnya",
+  "@categoryLainnya": {
+    "description": "Kategori lainnya"
+  },
+  "locationKulkas": "Kulkas",
+  "@locationKulkas": {
+    "description": "Lokasi kulkas"
+  },
+  "locationFreezer": "Freezer",
+  "@locationFreezer": {
+    "description": "Lokasi freezer"
+  },
+  "locationLemari": "Lemari",
+  "@locationLemari": {
+    "description": "Lokasi lemari"
+  },
+  "locationSuhuRuang": "Suhu ruang",
+  "@locationSuhuRuang": {
+    "description": "Lokasi suhu ruang"
+  },
+  "expirySourceEstimasi": "Estimasi otomatis",
+  "@expirySourceEstimasi": {
+    "description": "Sumber tanggal estimasi"
+  },
+  "expirySourceManual": "Diatur manual",
+  "@expirySourceManual": {
+    "description": "Sumber tanggal manual"
+  },
+  "expirySourceKemasan": "Dari kemasan",
+  "@expirySourceKemasan": {
+    "description": "Sumber tanggal kemasan"
+  },
+  "statusDaysLeft": "Sisa {days} hari",
+  "@statusDaysLeft": {
+    "description": "Badge sisa hari",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statusExpiresTomorrow": "Basi besok",
+  "@statusExpiresTomorrow": {
+    "description": "Badge basi besok"
+  },
+  "statusExpiresInDays": "Basi {days} hari lagi",
+  "@statusExpiresInDays": {
+    "description": "Badge basi beberapa hari lagi",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statusExpiredDaysAgo": "Basi {days} hari lalu",
+  "@statusExpiredDaysAgo": {
+    "description": "Badge sudah basi beberapa hari",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statusExpiredYesterday": "Basi kemarin",
+  "@statusExpiredYesterday": {
+    "description": "Badge sudah basi kemarin"
+  },
+  "statsPeriodWeek": "Minggu Ini",
+  "@statsPeriodWeek": {
+    "description": "Pilihan periode minggu ini"
+  },
+  "statsPeriodMonth": "Bulan Ini",
+  "@statsPeriodMonth": {
+    "description": "Pilihan periode bulan ini"
+  },
+  "statsPeriodThreeMonths": "3 Bulan",
+  "@statsPeriodThreeMonths": {
+    "description": "Pilihan periode tiga bulan"
+  },
+  "statsPeriodAll": "Semua",
+  "@statsPeriodAll": {
+    "description": "Pilihan periode semua waktu"
+  },
+  "statsSavedLabel": "Total uang makanan diselamatkan",
+  "@statsSavedLabel": {
+    "description": "Label total penghematan pada kartu utama statistik"
+  },
+  "statsSavedPercent": "{percent}% bahan berhasil dimasak tepat waktu",
+  "@statsSavedPercent": {
+    "description": "Persentase bahan yang diselamatkan",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "statsUsedTitle": "Dimasak",
+  "@statsUsedTitle": {
+    "description": "Judul statistik bahan dimasak"
+  },
+  "statsWastedTitle": "Terbuang",
+  "@statsWastedTitle": {
+    "description": "Judul statistik bahan terbuang"
+  },
+  "statsItemCount": "{count} bahan",
+  "@statsItemCount": {
+    "description": "Jumlah bahan pada statistik",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsEstimateNote": "Sebagian nilai memakai estimasi harga pasar.",
+  "@statsEstimateNote": {
+    "description": "Catatan nilai estimasi pada statistik"
+  },
+  "statsDistributionTitle": "Distribusi Bahan Makanan",
+  "@statsDistributionTitle": {
+    "description": "Judul grafik distribusi bahan"
+  },
+  "statsDistributionTotal": "{count} bahan",
+  "@statsDistributionTotal": {
+    "description": "Total bahan pada grafik distribusi",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsDistributionSaved": "Diselamatkan",
+  "@statsDistributionSaved": {
+    "description": "Legenda bahan diselamatkan"
+  },
+  "statsDistributionWasted": "Terbuang",
+  "@statsDistributionWasted": {
+    "description": "Legenda bahan terbuang"
+  },
+  "statsTotalItemsLabel": "total bahan",
+  "@statsTotalItemsLabel": {
+    "description": "Label total bahan di tengah grafik distribusi"
+  },
+  "statsTrendTitle": "Tren Pemakaian vs Pembuangan",
+  "@statsTrendTitle": {
+    "description": "Judul grafik tren pemakaian dan pembuangan"
+  },
+  "statsTrendSaved": "Diselamatkan",
+  "@statsTrendSaved": {
+    "description": "Legenda tren bahan diselamatkan"
+  },
+  "statsTrendWasted": "Terbuang",
+  "@statsTrendWasted": {
+    "description": "Legenda tren bahan terbuang"
+  },
+  "statsTrendEmpty": "Grafik akan muncul setelah ada catatan pemakaian.",
+  "@statsTrendEmpty": {
+    "description": "Pesan grafik tren tanpa data"
+  },
+  "statsImpactTitle": "Dampak Nyata Kebiasaanmu",
+  "@statsImpactTitle": {
+    "description": "Judul kartu dampak statistik"
+  },
+  "statsImpactKgLabel": "Sampah makanan dicegah",
+  "@statsImpactKgLabel": {
+    "description": "Label berat sampah makanan dicegah"
+  },
+  "statsImpactKgValue": "{kg} kg",
+  "@statsImpactKgValue": {
+    "description": "Nilai berat sampah makanan dicegah",
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    }
+  },
+  "statsImpactPortionLabel": "Setara porsi nasi rames",
+  "@statsImpactPortionLabel": {
+    "description": "Label porsi nasi rames setara"
+  },
+  "statsImpactPortionValue": "{portions} porsi",
+  "@statsImpactPortionValue": {
+    "description": "Nilai porsi nasi rames setara",
+    "placeholders": {
+      "portions": {
+        "type": "String"
+      }
+    }
+  },
+  "statsMotivationEmpty": "Tandai bahan yang terpakai atau terbuang untuk mulai melihat dampakmu.",
+  "@statsMotivationEmpty": {
+    "description": "Pesan motivasi tanpa data statistik"
+  },
+  "statsMotivationExcellent": "Keren! {percent}% bahanmu terselamatkan. Kamu mengurangi {kg} kg sampah makanan, setara {portions} porsi nasi rames.",
+  "@statsMotivationExcellent": {
+    "description": "Pesan motivasi penghematan sangat baik",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "kg": {
+        "type": "String"
+      },
+      "portions": {
+        "type": "String"
+      }
+    }
+  },
+  "statsMotivationGood": "Bagus! {percent}% bahanmu terselamatkan. Sudah {kg} kg sampah makanan yang kamu cegah, setara {portions} porsi nasi rames.",
+  "@statsMotivationGood": {
+    "description": "Pesan motivasi penghematan baik",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "kg": {
+        "type": "String"
+      },
+      "portions": {
+        "type": "String"
+      }
+    }
+  },
+  "statsMotivationLowWaste": "Sedikit demi sedikit pasti terbiasa. {kg} kg sampah makanan sudah kamu cegah, setara {portions} porsi nasi rames.",
+  "@statsMotivationLowWaste": {
+    "description": "Pesan motivasi saat penghematan masih sedikit",
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      },
+      "portions": {
+        "type": "String"
+      }
+    }
+  },
+  "statsMotivationLearning": "Tidak apa-apa, ini catatan untuk belajar. Mulai lagi dari bahan berikutnya, ya.",
+  "@statsMotivationLearning": {
+    "description": "Pesan motivasi tanpa penghematan"
+  },
+  "statsCategoryTitle": "Efisiensi per Kategori",
+  "@statsCategoryTitle": {
+    "description": "Judul daftar efisiensi kategori"
+  },
+  "statsCategorySubtitle": "Kategori dengan efisiensi terbaik tampil lebih dulu.",
+  "@statsCategorySubtitle": {
+    "description": "Subjudul daftar efisiensi kategori"
+  },
+  "statsCategoryUsage": "{used} dari {total} bahan digunakan",
+  "@statsCategoryUsage": {
+    "description": "Ringkasan pemakaian bahan per kategori",
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "statsCategoryNoWaste": "Tidak ada bahan terbuang",
+  "@statsCategoryNoWaste": {
+    "description": "Keterangan kategori tanpa bahan terbuang"
+  },
+  "statsCategoryEfficiency": "{percent}%",
+  "@statsCategoryEfficiency": {
+    "description": "Persentase efisiensi kategori",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "statsWasteReasonTitle": "Alasan Terbuang",
+  "@statsWasteReasonTitle": {
+    "description": "Judul daftar alasan bahan terbuang"
+  },
+  "statsWasteReasonSubtitle": "Paling sering: {reason}",
+  "@statsWasteReasonSubtitle": {
+    "description": "Alasan terbuang paling sering",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "statsWasteReasonCount": "{count} kali",
+  "@statsWasteReasonCount": {
+    "description": "Jumlah kejadian alasan terbuang",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statsInsightTitle": "Insight Belanja Minggu Depan",
+  "@statsInsightTitle": {
+    "description": "Judul kartu insight belanja"
+  },
+  "statsInsightAllGood": "Semua kategori sudah terkelola baik. Pertahankan kebiasaan ini!",
+  "@statsInsightAllGood": {
+    "description": "Insight saat semua kategori efisien"
+  },
+  "statsInsightSayur": "Sayur paling sering terbuang. Coba beli lebih sedikit tapi lebih sering.",
+  "@statsInsightSayur": {
+    "description": "Insight kategori sayur"
+  },
+  "statsInsightBuah": "Buah paling sering terbuang. Pilih yang matangnya pas dan simpan di kulkas.",
+  "@statsInsightBuah": {
+    "description": "Insight kategori buah"
+  },
+  "statsInsightDaging": "Daging paling sering terbuang. Bagi porsi kecil dan simpan di freezer.",
+  "@statsInsightDaging": {
+    "description": "Insight kategori daging"
+  },
+  "statsInsightIkanSeafood": "Ikan dan seafood paling sering terbuang. Masak atau bekukan di hari yang sama.",
+  "@statsInsightIkanSeafood": {
+    "description": "Insight kategori ikan dan seafood"
+  },
+  "statsInsightTelurSusu": "Telur dan susu paling sering terbuang. Catat tanggal bukanya di wadah.",
+  "@statsInsightTelurSusu": {
+    "description": "Insight kategori telur dan susu"
+  },
+  "statsInsightBumbu": "Bumbu paling sering terbuang. Beli dalam jumlah kecil atau tanam yang mudah.",
+  "@statsInsightBumbu": {
+    "description": "Insight kategori bumbu"
+  },
+  "statsInsightBahanKering": "Bahan kering paling sering terbuang. Simpan di wadah kedap udara.",
+  "@statsInsightBahanKering": {
+    "description": "Insight kategori bahan kering"
+  },
+  "statsInsightMinuman": "Minuman paling sering terbuang. Beli sesuai kebutuhan mingguan.",
+  "@statsInsightMinuman": {
+    "description": "Insight kategori minuman"
+  },
+  "statsInsightMakananOlahan": "Makanan olahan paling sering terbuang. Cek stok sebelum membeli lagi.",
+  "@statsInsightMakananOlahan": {
+    "description": "Insight kategori makanan olahan"
+  },
+  "statsInsightLainnya": "Ada bahan yang sering terbuang. Cek stok sebelum berbelanja lagi, ya.",
+  "@statsInsightLainnya": {
+    "description": "Insight kategori lainnya"
+  },
+  "statsStreakTitle": "Streak Tanpa Buang",
+  "@statsStreakTitle": {
+    "description": "Judul kartu streak tanpa membuang bahan"
+  },
+  "statsStreakDays": "{days} hari",
+  "@statsStreakDays": {
+    "description": "Jumlah hari streak tanpa membuang bahan",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "statsStreakBody": "Tidak ada bahan yang terbuang sejak {date}.",
+  "@statsStreakBody": {
+    "description": "Keterangan streak sejak tanggal terakhir membuang",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "statsStreakClean": "Belum ada bahan yang terbuang. Pertahankan!",
+  "@statsStreakClean": {
+    "description": "Keterangan streak saat belum pernah membuang bahan"
+  },
+  "statsPeriodEmptyTitle": "Belum ada catatan di periode ini",
+  "@statsPeriodEmptyTitle": {
+    "description": "Judul state kosong periode statistik"
+  },
+  "statsPeriodEmptyBody": "Coba pilih periode lain atau tandai bahan terpakai.",
+  "@statsPeriodEmptyBody": {
+    "description": "Penjelasan state kosong periode statistik"
+  },
+  "statsShowAll": "Lihat semua",
+  "@statsShowAll": {
+    "description": "Tombol menampilkan statistik semua periode"
+  },
+  "barcodeSectionTitle": "Isi cepat dengan barcode",
+  "@barcodeSectionTitle": {
+    "description": "Judul kartu barcode di form tambah bahan"
+  },
+  "barcodeSectionBody": "Pindai kemasan atau ketik nomornya. Data produk diambil dari Open Food Facts saat fitur online aktif.",
+  "@barcodeSectionBody": {
+    "description": "Penjelasan kartu barcode"
+  },
+  "barcodeSectionAction": "Pindai / ketik barcode",
+  "@barcodeSectionAction": {
+    "description": "Tombol membuka pencarian barcode"
+  },
+  "barcodeAttached": "Barcode: {barcode}",
+  "@barcodeAttached": {
+    "description": "Barcode yang sudah ditempel ke bahan",
+    "placeholders": {
+      "barcode": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeClearAction": "Hapus barcode",
+  "@barcodeClearAction": {
+    "description": "Tombol menghapus barcode dari form"
+  },
+  "barcodeSheetTitle": "Cari lewat barcode",
+  "@barcodeSheetTitle": {
+    "description": "Judul sheet pencarian barcode"
+  },
+  "barcodeSheetBody": "Masukkan 8–14 digit angka atau pindai kemasan.",
+  "@barcodeSheetBody": {
+    "description": "Petunjuk singkat di sheet barcode"
+  },
+  "barcodeFieldLabel": "Nomor barcode",
+  "@barcodeFieldLabel": {
+    "description": "Label kolom barcode"
+  },
+  "barcodeFieldHint": "Contoh: 8991002101234",
+  "@barcodeFieldHint": {
+    "description": "Contoh isian barcode"
+  },
+  "barcodeLookupAction": "Cari produk",
+  "@barcodeLookupAction": {
+    "description": "Tombol mencari produk dari barcode"
+  },
+  "barcodeScanAction": "Pindai",
+  "@barcodeScanAction": {
+    "description": "Tombol membuka kamera pemindai dari sheet barcode"
+  },
+  "barcodeLookingUp": "Mencari produk…",
+  "@barcodeLookingUp": {
+    "description": "Status saat produk sedang dicari"
+  },
+  "barcodeInvalid": "Barcode harus 8–14 digit angka.",
+  "@barcodeInvalid": {
+    "description": "Pesan barcode tidak valid"
+  },
+  "barcodeNotFound": "Produk tidak ditemukan. Kamu tetap bisa mengisi nama sendiri.",
+  "@barcodeNotFound": {
+    "description": "Pesan produk tidak ditemukan"
+  },
+  "barcodeOffline": "Sedang offline. Coba lagi saat ada internet atau isi nama manual.",
+  "@barcodeOffline": {
+    "description": "Pesan saat perangkat offline"
+  },
+  "barcodeDisabled": "Fitur online dimatikan. Aktifkan di Pengaturan atau isi nama manual.",
+  "@barcodeDisabled": {
+    "description": "Pesan saat fitur barcode online dimatikan"
+  },
+  "barcodeError": "Gagal mencari produk. Coba lagi nanti.",
+  "@barcodeError": {
+    "description": "Pesan kesalahan pencarian barcode"
+  },
+  "barcodeUseAction": "Pakai data ini",
+  "@barcodeUseAction": {
+    "description": "Tombol memakai hasil pencarian barcode"
+  },
+  "barcodeCacheBadge": "Dari cache",
+  "@barcodeCacheBadge": {
+    "description": "Label data yang berasal dari cache lokal"
+  },
+  "barcodeBrand": "Merek: {brand}",
+  "@barcodeBrand": {
+    "description": "Merek produk dari barcode",
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeQuantity": "Isi: {quantity}",
+  "@barcodeQuantity": {
+    "description": "Isi kemasan produk",
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "barcodeManualHint": "Tidak menemukan produknya? Isi nama, kategori, dan tanggal kedaluwarsa secara manual.",
+  "@barcodeManualHint": {
+    "description": "Pengingat bahwa form tetap bisa diisi manual"
+  },
+  "barcodeManualTitle": "Ketik barcode",
+  "@barcodeManualTitle": {
+    "description": "Judul dialog input barcode manual"
+  },
+  "barcodeScanTitle": "Pindai Barcode",
+  "@barcodeScanTitle": {
+    "description": "Judul layar pemindai barcode"
+  },
+  "barcodeScanHint": "Arahkan kamera ke barcode kemasan.",
+  "@barcodeScanHint": {
+    "description": "Petunjuk di layar pemindai"
+  },
+  "barcodeScanTorch": "Senter",
+  "@barcodeScanTorch": {
+    "description": "Tombol senter pemindai"
+  },
+  "barcodeScanManual": "Ketik manual",
+  "@barcodeScanManual": {
+    "description": "Tombol input barcode manual dari pemindai"
+  },
+  "barcodeScanError": "Kamera tidak bisa dibuka. Ketik barcode secara manual.",
+  "@barcodeScanError": {
+    "description": "Pesan saat kamera gagal dibuka"
+  },
+  "onlineSectionTitle": "Fitur Online",
+  "@onlineSectionTitle": {
+    "description": "Judul bagian pengaturan fitur online"
+  },
+  "onlineBarcodeLabel": "Cari produk lewat barcode",
+  "@onlineBarcodeLabel": {
+    "description": "Label pengaturan barcode online"
+  },
+  "onlineBarcodeBody": "Mengirim nomor barcode ke Open Food Facts saat kamu memintanya.",
+  "@onlineBarcodeBody": {
+    "description": "Penjelasan barcode online"
+  },
+  "onlineRecipeLabel": "Cari resep online",
+  "@onlineRecipeLabel": {
+    "description": "Label pengaturan resep online"
+  },
+  "onlineRecipeBody": "Mengirim kata kunci ke TheMealDB saat kamu mencari resep.",
+  "@onlineRecipeBody": {
+    "description": "Penjelasan resep online"
+  },
+  "onlineClearCache": "Hapus cache online",
+  "@onlineClearCache": {
+    "description": "Aksi menghapus cache online"
+  },
+  "onlineClearCacheBody": "Hapus data produk dan resep yang tersimpan dari internet.",
+  "@onlineClearCacheBody": {
+    "description": "Penjelasan aksi hapus cache"
+  },
+  "onlineCacheCleared": "Cache online dihapus.",
+  "@onlineCacheCleared": {
+    "description": "Konfirmasi cache online sudah dihapus"
+  },
+  "onlineOpenSettings": "Buka Pengaturan",
+  "@onlineOpenSettings": {
+    "description": "Tombol menuju pengaturan fitur online"
+  },
+  "onlineRecipesTitle": "Resep Online",
+  "@onlineRecipesTitle": {
+    "description": "Judul layar resep online"
+  },
+  "onlineRecipesSubtitle": "Cari inspirasi dari TheMealDB. Hasil disimpan agar bisa dibuka lagi tanpa internet.",
+  "@onlineRecipesSubtitle": {
+    "description": "Subjudul layar resep online"
+  },
+  "onlineRecipesSearchLabel": "Kata kunci",
+  "@onlineRecipesSearchLabel": {
+    "description": "Label kolom pencarian resep online"
+  },
+  "onlineRecipesSearchHint": "Cari resep, misalnya chicken",
+  "@onlineRecipesSearchHint": {
+    "description": "Contoh pencarian resep online"
+  },
+  "onlineRecipesSearchAction": "Cari",
+  "@onlineRecipesSearchAction": {
+    "description": "Tombol mencari resep online"
+  },
+  "onlineRecipesIdleTitle": "Cari resep dari internet",
+  "@onlineRecipesIdleTitle": {
+    "description": "Judul state awal resep online"
+  },
+  "onlineRecipesIdleBody": "Ketik kata kunci lalu tekan Cari. Resep yang dibuka akan di-cache untuk dipakai offline.",
+  "@onlineRecipesIdleBody": {
+    "description": "Penjelasan state awal resep online"
+  },
+  "onlineRecipesEmptyTitle": "Resep tidak ditemukan",
+  "@onlineRecipesEmptyTitle": {
+    "description": "Judul saat pencarian resep kosong"
+  },
+  "onlineRecipesEmptyBody": "Coba kata kunci lain dalam bahasa Inggris.",
+  "@onlineRecipesEmptyBody": {
+    "description": "Penjelasan saat pencarian resep kosong"
+  },
+  "onlineRecipesOfflineTitle": "Tidak ada koneksi",
+  "@onlineRecipesOfflineTitle": {
+    "description": "Judul state offline resep online"
+  },
+  "onlineRecipesOfflineBody": "Resep online butuh internet. Resep lokal tetap bisa dipakai.",
+  "@onlineRecipesOfflineBody": {
+    "description": "Penjelasan state offline resep online"
+  },
+  "onlineRecipesDisabledTitle": "Fitur online dimatikan",
+  "@onlineRecipesDisabledTitle": {
+    "description": "Judul state fitur online dimatikan"
+  },
+  "onlineRecipesDisabledBody": "Aktifkan pencarian resep online di Pengaturan.",
+  "@onlineRecipesDisabledBody": {
+    "description": "Penjelasan state fitur online dimatikan"
+  },
+  "onlineRecipesErrorTitle": "Gagal memuat resep",
+  "@onlineRecipesErrorTitle": {
+    "description": "Judul kesalahan resep online"
+  },
+  "onlineRecipesErrorBody": "Periksa koneksi lalu coba lagi.",
+  "@onlineRecipesErrorBody": {
+    "description": "Penjelasan kesalahan resep online"
+  },
+  "onlineRecipeIngredientCount": "{count} bahan",
+  "@onlineRecipeIngredientCount": {
+    "description": "Jumlah bahan resep online",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "onlineRecipeOpenAction": "Lihat resep",
+  "@onlineRecipeOpenAction": {
+    "description": "Aksi membuka detail resep online"
+  },
+  "onlineRecipeDetailTitle": "Detail Resep Online",
+  "@onlineRecipeDetailTitle": {
+    "description": "Judul layar detail resep online"
+  },
+  "onlineRecipeIngredients": "Bahan",
+  "@onlineRecipeIngredients": {
+    "description": "Judul bagian bahan resep online"
+  },
+  "onlineRecipeSteps": "Cara membuat",
+  "@onlineRecipeSteps": {
+    "description": "Judul bagian langkah resep online"
+  },
+  "onlineRecipeNoSteps": "Langkah memasak belum tersedia.",
+  "@onlineRecipeNoSteps": {
+    "description": "Pesan saat resep online tidak punya langkah"
+  },
+  "onlineRecipeNotFoundTitle": "Resep tidak ditemukan",
+  "@onlineRecipeNotFoundTitle": {
+    "description": "Judul saat detail resep online tidak ada"
+  },
+  "onlineRecipeNotFoundBody": "Resep mungkin sudah dihapus dari TheMealDB.",
+  "@onlineRecipeNotFoundBody": {
+    "description": "Penjelasan saat detail resep online tidak ada"
+  },
+  "onlineRecipeEntryTitle": "Cari resep online",
+  "@onlineRecipeEntryTitle": {
+    "description": "Judul kartu masuk resep online"
+  },
+  "onlineRecipeEntryBody": "Butuh inspirasi lain? Cari resep dari TheMealDB.",
+  "@onlineRecipeEntryBody": {
+    "description": "Penjelasan kartu masuk resep online"
+  },
+  "onlineRecipeEntryDisabled": "Fitur online dimatikan. Aktifkan untuk mencari resep dari internet.",
+  "@onlineRecipeEntryDisabled": {
+    "description": "Penjelasan kartu resep online saat dimatikan"
+  },
+  "onboardingSlide1Title": "Catat stok dapurmu",
+  "@onboardingSlide1Title": {
+    "description": "Judul slide onboarding pertama"
+  },
+  "onboardingSlide1Body": "Tambah bahan dengan cepat, lengkap dengan tanggal basi dan lokasi simpan.",
+  "@onboardingSlide1Body": {
+    "description": "Isi slide onboarding pertama"
+  },
+  "onboardingSlide2Title": "Pengingat sebelum basi",
+  "@onboardingSlide2Title": {
+    "description": "Judul slide onboarding kedua"
+  },
+  "onboardingSlide2Body": "Segar mengingatkanmu beberapa hari sebelum bahan mendekati tanggal basi.",
+  "@onboardingSlide2Body": {
+    "description": "Isi slide onboarding kedua"
+  },
+  "onboardingSlide3Title": "Masak sebelum terbuang",
+  "@onboardingSlide3Title": {
+    "description": "Judul slide onboarding ketiga"
+  },
+  "onboardingSlide3Body": "Dapatkan saran resep dari bahan yang paling perlu diselamatkan.",
+  "@onboardingSlide3Body": {
+    "description": "Isi slide onboarding ketiga"
+  },
+  "onboardingNameTitle": "Siapa nama panggilanmu?",
+  "@onboardingNameTitle": {
+    "description": "Judul slide nama onboarding"
+  },
+  "onboardingNameBody": "Segar akan menyapamu dengan nama ini. Bisa diubah kapan saja di Pengaturan.",
+  "@onboardingNameBody": {
+    "description": "Isi slide nama onboarding"
+  },
+  "onboardingNameLabel": "Nama panggilan",
+  "@onboardingNameLabel": {
+    "description": "Label kolom nama panggilan"
+  },
+  "onboardingNameHint": "Contoh: Dina",
+  "@onboardingNameHint": {
+    "description": "Petunjuk kolom nama panggilan"
+  },
+  "onboardingNext": "Lanjut",
+  "@onboardingNext": {
+    "description": "Tombol lanjut onboarding"
+  },
+  "onboardingPageLabel": "Halaman {current} dari {total}",
+  "@onboardingPageLabel": {
+    "description": "Label aksesibilitas indikator halaman onboarding"
+  },
+  "backupSubtitle": "Simpan data pantry ke file, lalu pulihkan kapan saja.",
+  "@backupSubtitle": {
+    "description": "Subjudul layar cadangan"
+  },
+  "backupLastAt": "Terakhir dicadangkan: {date}",
+  "@backupLastAt": {
+    "description": "Keterangan waktu cadangan terakhir"
+  },
+  "backupNever": "Belum pernah dicadangkan.",
+  "@backupNever": {
+    "description": "Keterangan bila belum ada cadangan"
+  },
+  "backupExportTitle": "Buat cadangan",
+  "@backupExportTitle": {
+    "description": "Judul bagian ekspor cadangan"
+  },
+  "backupExportBody": "File berisi bahan, riwayat pemakaian, dan daftar belanja. Simpan di tempat aman.",
+  "@backupExportBody": {
+    "description": "Penjelasan ekspor cadangan"
+  },
+  "backupExportAction": "Bagikan file cadangan",
+  "@backupExportAction": {
+    "description": "Tombol ekspor cadangan"
+  },
+  "backupExportSuccess": "Cadangan berhasil dibuat.",
+  "@backupExportSuccess": {
+    "description": "Pesan sukses ekspor cadangan"
+  },
+  "backupExportFailed": "Gagal membuat cadangan. Coba lagi.",
+  "@backupExportFailed": {
+    "description": "Pesan gagal ekspor cadangan"
+  },
+  "backupRestoreTitle": "Pulihkan cadangan",
+  "@backupRestoreTitle": {
+    "description": "Judul bagian pemulihan cadangan"
+  },
+  "backupRestoreBody": "Pilih file cadangan Segar. Data saat ini akan diganti dengan isi file.",
+  "@backupRestoreBody": {
+    "description": "Penjelasan pemulihan cadangan"
+  },
+  "backupRestoreAction": "Pilih file cadangan",
+  "@backupRestoreAction": {
+    "description": "Tombol pemulihan cadangan"
+  },
+  "backupRestoreConfirmTitle": "Pulihkan data dari file?",
+  "@backupRestoreConfirmTitle": {
+    "description": "Judul konfirmasi pemulihan"
+  },
+  "backupRestoreConfirmBody": "File berisi {items} bahan, {logs} riwayat, dan {shopping} daftar belanja. Data saat ini akan diganti.",
+  "@backupRestoreConfirmBody": {
+    "description": "Isi konfirmasi pemulihan"
+  },
+  "backupRestoreSuccess": "Cadangan berhasil dipulihkan.",
+  "@backupRestoreSuccess": {
+    "description": "Pesan sukses pemulihan"
+  },
+  "backupRestoreInvalid": "File cadangan tidak valid atau tidak didukung.",
+  "@backupRestoreInvalid": {
+    "description": "Pesan file cadangan tidak valid"
+  },
+  "backupRestoreFailed": "Gagal memulihkan cadangan. Coba lagi.",
+  "@backupRestoreFailed": {
+    "description": "Pesan gagal pemulihan"
+  },
+  "backupRestoreCancelled": "Pemulihan dibatalkan.",
+  "@backupRestoreCancelled": {
+    "description": "Pesan pemulihan dibatalkan"
+  },
+  "backupFileSubject": "Cadangan Segar",
+  "@backupFileSubject": {
+    "description": "Subjek berbagi file cadangan"
+  },
+  "profileEditTitle": "Ubah nama panggilan",
+  "@profileEditTitle": {
+    "description": "Judul dialog ubah nama"
+  },
+  "profileEditLabel": "Nama panggilan",
+  "@profileEditLabel": {
+    "description": "Label kolom ubah nama"
+  },
+  "profileEditHint": "Contoh: Dina",
+  "@profileEditHint": {
+    "description": "Petunjuk kolom ubah nama"
+  },
+  "profileEditSaved": "Nama berhasil diperbarui.",
+  "@profileEditSaved": {
+    "description": "Pesan sukses ubah nama"
+  },
+  "settingsDataTitle": "Data",
+  "@settingsDataTitle": {
+    "description": "Judul bagian data pengaturan"
+  },
+  "settingsShoppingSubtitle": "Catat bahan yang perlu dibeli.",
+  "@settingsShoppingSubtitle": {
+    "description": "Subjudul menu daftar belanja"
+  },
+  "settingsResetTitle": "Hapus semua data",
+  "@settingsResetTitle": {
+    "description": "Judul menu hapus data"
+  },
+  "settingsResetBody": "Hapus bahan, riwayat, dan daftar belanja dari perangkat ini.",
+  "@settingsResetBody": {
+    "description": "Penjelasan menu hapus data"
+  },
+  "settingsResetConfirmTitle": "Hapus semua data?",
+  "@settingsResetConfirmTitle": {
+    "description": "Judul konfirmasi hapus data"
+  },
+  "settingsResetConfirmBody": "Semua bahan, riwayat pemakaian, dan daftar belanja akan dihapus permanen. Pengaturan tetap disimpan.",
+  "@settingsResetConfirmBody": {
+    "description": "Isi konfirmasi hapus data"
+  },
+  "settingsResetAction": "Hapus data",
+  "@settingsResetAction": {
+    "description": "Tombol konfirmasi hapus data"
+  },
+  "settingsResetSuccess": "Semua data berhasil dihapus.",
+  "@settingsResetSuccess": {
+    "description": "Pesan sukses hapus data"
+  },
+  "settingsResetFailed": "Gagal menghapus data. Coba lagi.",
+  "@settingsResetFailed": {
+    "description": "Pesan gagal hapus data"
+  },
+  "shoppingListEmptyTitle": "Daftar belanja masih kosong",
+  "@shoppingListEmptyTitle": {
+    "description": "Judul state kosong daftar belanja"
+  },
+  "shoppingListEmptyBody": "Tambahkan bahan manual atau dari resep yang belum lengkap.",
+  "@shoppingListEmptyBody": {
+    "description": "Isi state kosong daftar belanja"
+  },
+  "shoppingListAddTitle": "Tambah bahan belanja",
+  "@shoppingListAddTitle": {
+    "description": "Judul dialog tambah belanja"
+  },
+  "shoppingListAddAction": "Tambah",
+  "@shoppingListAddAction": {
+    "description": "Tombol tambah belanja"
+  },
+  "shoppingListNameLabel": "Nama bahan",
+  "@shoppingListNameLabel": {
+    "description": "Label nama bahan belanja"
+  },
+  "shoppingListNameHint": "Contoh: Bayam",
+  "@shoppingListNameHint": {
+    "description": "Petunjuk nama bahan belanja"
+  },
+  "shoppingListNameRequired": "Nama bahan wajib diisi.",
+  "@shoppingListNameRequired": {
+    "description": "Validasi nama bahan belanja"
+  },
+  "shoppingListQuantityLabel": "Jumlah",
+  "@shoppingListQuantityLabel": {
+    "description": "Label jumlah belanja"
+  },
+  "shoppingListQuantityInvalid": "Jumlah harus lebih dari 0.",
+  "@shoppingListQuantityInvalid": {
+    "description": "Validasi jumlah belanja"
+  },
+  "shoppingListUnitLabel": "Satuan",
+  "@shoppingListUnitLabel": {
+    "description": "Label satuan belanja"
+  },
+  "shoppingListAddSuccess": "Bahan ditambahkan ke daftar belanja.",
+  "@shoppingListAddSuccess": {
+    "description": "Pesan sukses tambah belanja"
+  },
+  "shoppingListCheckedCount": "{checked} dari {total} sudah dibeli",
+  "@shoppingListCheckedCount": {
+    "description": "Ringkasan progres belanja"
+  },
+  "shoppingListClearChecked": "Hapus yang sudah dibeli",
+  "@shoppingListClearChecked": {
+    "description": "Tombol hapus item tercentang"
+  },
+  "shoppingListClearCheckedSuccess": "Item yang sudah dibeli dihapus.",
+  "@shoppingListClearCheckedSuccess": {
+    "description": "Pesan sukses hapus item tercentang"
+  },
+  "shoppingListClearAll": "Kosongkan daftar",
+  "@shoppingListClearAll": {
+    "description": "Tombol kosongkan daftar belanja"
+  },
+  "shoppingListClearAllConfirmTitle": "Kosongkan daftar belanja?",
+  "@shoppingListClearAllConfirmTitle": {
+    "description": "Judul konfirmasi kosongkan daftar"
+  },
+  "shoppingListClearAllConfirmBody": "Semua item di daftar belanja akan dihapus.",
+  "@shoppingListClearAllConfirmBody": {
+    "description": "Isi konfirmasi kosongkan daftar"
+  },
+  "shoppingListDeleteSuccess": "Item dihapus dari daftar belanja.",
+  "@shoppingListDeleteSuccess": {
+    "description": "Pesan sukses hapus item"
+  },
+  "shoppingListEditTitle": "Ubah item belanja",
+  "@shoppingListEditTitle": {
+    "description": "Judul dialog ubah item belanja"
+  },
+  "shoppingListSourceManual": "Manual",
+  "@shoppingListSourceManual": {
+    "description": "Label sumber item belanja manual"
+  },
+  "shoppingListSourceHabis": "Stok habis",
+  "@shoppingListSourceHabis": {
+    "description": "Label sumber item belanja dari stok habis"
+  },
+  "shoppingListSourceResep": "Dari resep",
+  "@shoppingListSourceResep": {
+    "description": "Label sumber item belanja dari resep"
+  },
+  "shoppingListAddFromRecipe": "Tambahkan bahan kurang ke daftar belanja",
+  "@shoppingListAddFromRecipe": {
+    "description": "Tombol tambah bahan kurang dari resep"
+  },
+  "shoppingListAddedFromRecipe": "{count} bahan ditambahkan ke daftar belanja.",
+  "@shoppingListAddedFromRecipe": {
+    "description": "Pesan sukses tambah bahan dari resep"
+  },
+  "profileEditRequired": "Nama panggilan wajib diisi.",
+  "@profileEditRequired": {
+    "description": "Validasi nama panggilan kosong"
+  },
+  "shoppingListNoNewItems": "Bahan sudah ada di daftar belanja.",
+  "@shoppingListNoNewItems": {
+    "description": "Pesan saat semua bahan resep sudah ada di daftar belanja"
+  }
+}

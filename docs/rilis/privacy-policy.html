@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Kebijakan Privasi — Segar</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fafaf7;
+      --fg: #1c231d;
+      --muted: #55605a;
+      --accent: #2e9e5b;
+      --line: #dfe5e0;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121412;
+        --fg: #e7ece8;
+        --muted: #a7b2ab;
+        --accent: #6fd394;
+        --line: #2b312c;
+        --card: #1a1e1b;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2.5rem 1.25rem 4rem;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 52rem; margin: 0 auto; }
+    h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; }
+    h2 {
+      font-size: 1.2rem;
+      margin: 2.4rem 0 .7rem;
+      padding-top: .4rem;
+      border-top: 1px solid var(--line);
+    }
+    h2:first-of-type { border-top: 0; }
+    p, li { color: var(--fg); }
+    .meta { color: var(--muted); margin: 0 0 2rem; font-size: .95rem; }
+    ul { padding-left: 1.3rem; }
+    li + li { margin-top: .35rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.4rem;
+      font-size: .95rem;
+      background: var(--card);
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: .6rem .7rem;
+      border: 1px solid var(--line);
+    }
+    th { background: color-mix(in srgb, var(--accent) 10%, var(--card)); }
+    a { color: var(--accent); }
+    .note {
+      border-left: 3px solid var(--accent);
+      background: color-mix(in srgb, var(--accent) 8%, var(--card));
+      padding: .8rem 1rem;
+      margin: 1.2rem 0;
+      border-radius: 0 .5rem .5rem 0;
+    }
+    footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 520px) {
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      td { border-top: 0; }
+      tr { border: 1px solid var(--line); margin-bottom: .8rem; background: var(--card); }
+      td::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: 600;
+        color: var(--muted);
+        font-size: .8rem;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+        margin-bottom: .15rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Kebijakan Privasi Segar</h1>
+  <p class="meta">Terakhir diperbarui: 11 November 2026 · Berlaku sejak: 11 November 2026</p>
+
+  <p>Segar ("aplikasi", "kami") adalah aplikasi pendamping dapur yang dikembangkan oleh <strong>[NAMA PENGEMBANG]</strong>. Kebijakan ini menjelaskan data apa yang diproses aplikasi, di mana data disimpan, dan kapan data keluar dari perangkatmu.</p>
+
+  <h2>Ringkasan</h2>
+  <ul>
+    <li>Tidak ada akun, login, iklan, analitik, atau pelacakan.</li>
+    <li>Data pantry, riwayat pemakaian, daftar belanja, dan pengaturan disimpan di perangkatmu sendiri.</li>
+    <li>Internet hanya dipakai saat kamu memakai dua fitur opsional: cari produk lewat barcode dan cari resep online.</li>
+    <li>Kami tidak memiliki server dan tidak menerima salinan datamu.</li>
+  </ul>
+
+  <h2>Data yang disimpan di perangkat</h2>
+  <p>Aplikasi menyimpan data berikut di database lokal (SQLite) pada perangkat:</p>
+  <table>
+    <thead><tr><th>Data</th><th>Isi</th></tr></thead>
+    <tbody>
+      <tr><td data-label="Data">Profil</td><td data-label="Isi">Nama panggilan yang kamu isi saat onboarding</td></tr>
+      <tr><td data-label="Data">Pantry</td><td data-label="Isi">Nama bahan, jumlah, satuan, kategori, lokasi penyimpanan, tanggal beli, tanggal kedaluwarsa, dan sumber tanggal</td></tr>
+      <tr><td data-label="Data">Riwayat pemakaian</td><td data-label="Isi">Aksi pakai/buang, jumlah, perkiraan nilai, dan alasan pembuangan</td></tr>
+      <tr><td data-label="Data">Daftar belanja</td><td data-label="Isi">Nama bahan, jumlah, satuan, dan status sudah dibeli</td></tr>
+      <tr><td data-label="Data">Pengaturan</td><td data-label="Isi">Tema, pengaturan notifikasi (jam, ambang hari, jam tenang), dan sakelar fitur online</td></tr>
+      <tr><td data-label="Data">Cache</td><td data-label="Isi">Hasil pencarian barcode dan detail resep online, agar bisa dibuka lagi saat offline</td></tr>
+    </tbody>
+  </table>
+  <p>Data ini tidak dikirim ke kami. Data hanya keluar dari perangkat jika kamu memilih <strong>Bagikan file cadangan</strong> (file JSON yang kamu tentukan tujuannya), atau jika sistem operasi menyertakannya dalam cadangan perangkat (lihat bagian "Cadangan sistem").</p>
+
+  <h2>Data yang dikirim ke internet</h2>
+  <p>Dua fitur berikut bersifat opsional, bisa dimatikan di <strong>Pengaturan</strong>, dan hanya berjalan saat kamu memintanya:</p>
+  <table>
+    <thead><tr><th>Fitur</th><th>Data yang dikirim</th><th>Tujuan</th><th>Layanan</th></tr></thead>
+    <tbody>
+      <tr>
+        <td data-label="Fitur">Cari produk lewat barcode</td>
+        <td data-label="Data dikirim">Nomor barcode</td>
+        <td data-label="Tujuan">Mengambil nama, kategori, dan ukuran produk</td>
+        <td data-label="Layanan"><a href="https://world.openfoodfacts.org/" rel="noopener">Open Food Facts</a></td>
+      </tr>
+      <tr>
+        <td data-label="Fitur">Cari resep online</td>
+        <td data-label="Data dikirim">Kata kunci pencarian</td>
+        <td data-label="Tujuan">Mencari resep berdasarkan kata kunci</td>
+        <td data-label="Layanan"><a href="https://www.themealdb.com/" rel="noopener">TheMealDB</a></td>
+      </tr>
+      <tr>
+        <td data-label="Fitur">Menampilkan gambar resep</td>
+        <td data-label="Data dikirim">Permintaan gambar (URL)</td>
+        <td data-label="Tujuan">Menampilkan foto resep</td>
+        <td data-label="Layanan">CDN TheMealDB</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <p>Isi pantry, riwayat, daftar belanja, nama panggilan, dan pengaturan <strong>tidak pernah</strong> ikut terkirim.</p>
+  </div>
+  <p>Seperti permintaan internet pada umumnya, penyedia layanan dapat melihat alamat IP, waktu permintaan, dan user agent. Kami tidak menerima, menyimpan, atau memakai informasi tersebut.</p>
+  <p>Hasil pencarian disimpan sebagai cache di perangkat. Cache resep dianggap kedaluwarsa setelah 14 hari dan cache barcode setelah 30 hari; keduanya bisa dihapus kapan saja lewat <strong>Pengaturan → Hapus cache online</strong>. Jika fitur online dimatikan atau perangkat sedang offline, aplikasi tetap berfungsi penuh memakai data lokal dan cache yang ada.</p>
+
+  <h2>Izin platform</h2>
+  <table>
+    <thead><tr><th>Izin</th><th>Dipakai untuk</th><th>Wajib?</th></tr></thead>
+    <tbody>
+      <tr><td data-label="Izin">Internet (Android)</td><td data-label="Dipakai untuk">Dua fitur online di atas</td><td data-label="Wajib?">Tidak, hanya saat fitur online aktif</td></tr>
+      <tr><td data-label="Izin">Kamera (Android &amp; iOS)</td><td data-label="Dipakai untuk">Memindai barcode kemasan</td><td data-label="Wajib?">Tidak, bisa ketik manual</td></tr>
+      <tr><td data-label="Izin">Notifikasi (Android 13+)</td><td data-label="Dipakai untuk">Pengingat kedaluwarsa</td><td data-label="Wajib?">Tidak, bisa ditolak</td></tr>
+      <tr><td data-label="Izin">Terima boot selesai (Android)</td><td data-label="Dipakai untuk">Menjadwalkan ulang pengingat setelah HP dinyalakan ulang</td><td data-label="Wajib?">Tidak</td></tr>
+      <tr><td data-label="Izin">Getar (Android)</td><td data-label="Dipakai untuk">Getaran notifikasi</td><td data-label="Wajib?">Tidak</td></tr>
+      <tr><td data-label="Izin">Pustaka foto (iOS)</td><td data-label="Dipakai untuk">Memilih berkas cadangan saat pemulihan</td><td data-label="Wajib?">Tidak</td></tr>
+    </tbody>
+  </table>
+  <p>Aplikasi tidak meminta akses lokasi, kontak, mikrofon, atau riwayat panggilan/SMS.</p>
+
+  <h2>Berbagi data</h2>
+  <ul>
+    <li>Kami tidak menjual, menyewakan, atau membagikan datamu kepada pihak ketiga.</li>
+    <li>Tidak ada SDK iklan, analitik, atau pelaporan crash pihak ketiga.</li>
+    <li>Satu-satunya transfer data keluar perangkat adalah permintaan ke Open Food Facts dan TheMealDB yang kamu picu sendiri.</li>
+  </ul>
+
+  <h2>Penyimpanan dan penghapusan</h2>
+  <ul>
+    <li>Data tersimpan selama aplikasi terpasang.</li>
+    <li><strong>Pengaturan → Hapus semua data</strong> menghapus seluruh data pantry, riwayat, daftar belanja, serta cache barcode dan resep online. Pengaturan (tema, pengingat, sakelar fitur online) dan nama panggilan tetap disimpan.</li>
+    <li>Menghapus (uninstall) aplikasi menghapus semua data lokal, termasuk pengaturan dan nama panggilan.</li>
+    <li>Karena kami tidak memiliki server, tidak ada data yang perlu dihapus di sisi kami.</li>
+  </ul>
+
+  <h2>Cadangan sistem</h2>
+  <p>Jika kamu mengaktifkan cadangan otomatis perangkat (Android Auto Backup atau iCloud Backup), sistem operasi dapat menyertakan data aplikasi dalam cadangan tersebut. Cadangan itu dikelola sepenuhnya oleh sistem operasi dan akun platformmu; kami tidak memiliki akses ke dalamnya. Kamu bisa mematikannya di pengaturan perangkat.</p>
+  <p>Ekspor cadangan di dalam aplikasi menghasilkan file JSON yang hanya kamu yang menentukan ke mana file itu dibagikan.</p>
+
+  <h2>Hak kamu</h2>
+  <p>Sesuai UU Pelindungan Data Pribadi (UU 27/2022), kamu berhak mengakses, memperbaiki, dan menghapus data pribadimu. Karena semua data ada di perangkatmu, hak tersebut bisa kamu jalankan langsung di aplikasi:</p>
+  <ul>
+    <li><strong>Akses &amp; perbaikan</strong> — buka layar Pantry atau Pengaturan.</li>
+    <li><strong>Penghapusan</strong> — Pengaturan → Hapus semua data, atau hapus aplikasi.</li>
+    <li><strong>Portabilitas</strong> — Pengaturan → Cadangan &amp; pemulihan → Bagikan file cadangan.</li>
+  </ul>
+
+  <h2>Anak-anak</h2>
+  <p>Segar tidak ditujukan untuk anak di bawah 13 tahun dan tidak dengan sengaja mengumpulkan data dari anak-anak. Aplikasi tidak memiliki akun atau fitur sosial.</p>
+
+  <h2>Perubahan kebijakan</h2>
+  <p>Jika ada perubahan material, versi baru akan diterbitkan di halaman ini dengan tanggal pembaruan yang baru. Perubahan berlaku sejak tanggal yang tertera.</p>
+
+  <h2>Kontak</h2>
+  <ul>
+    <li>Pengembang: <strong>[NAMA PENGEMBANG]</strong></li>
+    <li>Email: <a href="mailto:[EMAIL KONTAK]">[EMAIL KONTAK]</a></li>
+    <li>Halaman ini: [URL KEBIJAKAN PRIVASI]</li>
+  </ul>
+
+  <footer>Segar — pantry rapi, makanan terselamatkan.</footer>
+</main>
+</body>
+</html>

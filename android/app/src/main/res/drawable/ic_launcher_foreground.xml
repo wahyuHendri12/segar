@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sprout mark centred in the adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M54,82.27 L54,54.84"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6.12"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,58.64 C54,43.45 63.91,32.91 81.42,29.95 C79.1,46.83 70.24,56.11 54,58.64 Z" />
+    <path
+        android:fillColor="#EAF7EF"
+        android:pathData="M54,66.23 C54,52.73 45.35,43.24 30.16,40.71 C32.06,55.05 39.66,63.49 54,66.23 Z" />
+</vector>
