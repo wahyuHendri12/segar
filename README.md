@@ -37,6 +37,81 @@ Keduanya hanya berjalan saat kamu memintanya, bisa dimatikan di Pengaturan, dan
 hasilnya di-cache di perangkat. Saat offline atau fitur dimatikan, Segar memakai
 cache bila ada dan tetap berfungsi penuh tanpa internet.
 
+## Tampilan Aplikasi
+
+Klik gambar untuk membuka ukuran penuh.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="segar_documentation/dashboard.jpeg">
+        <img src="segar_documentation/dashboard.jpeg" width="280" alt="Dashboard Segar">
+      </a><br>
+      <sub><b>Dashboard</b><br>Ringkasan status dapur dan pengingat hari ini.</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="segar_documentation/dashboard2.jpeg">
+        <img src="segar_documentation/dashboard2.jpeg" width="280" alt="Daftar bahan di pantry">
+      </a><br>
+      <sub><b>Pantry</b><br>Daftar bahan, filter lokasi, dan status kedaluwarsa.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="segar_documentation/add%20bahan.jpeg">
+        <img src="segar_documentation/add%20bahan.jpeg" width="280" alt="Tambah bahan dengan barcode">
+      </a><br>
+      <sub><b>Tambah bahan</b><br>Pindai barcode atau isi nama bahan secara manual.</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="segar_documentation/add%20bahan%202.jpeg">
+        <img src="segar_documentation/add%20bahan%202.jpeg" width="280" alt="Form detail bahan">
+      </a><br>
+      <sub><b>Detail bahan</b><br>Atur jumlah, lokasi, tanggal basi, dan pengingat.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <a href="segar_documentation/scan%20barcode%20pembelian.jpeg">
+        <img src="segar_documentation/scan%20barcode%20pembelian.jpeg" width="280" alt="Cari produk lewat barcode">
+      </a><br>
+      <sub><b>Cari lewat barcode</b><br>Ketik nomor barcode atau pindai kemasan.</sub>
+    </td>
+  </tr>
+</table>
+
+## Rencana Update
+
+### Ekspor terjadwal harian (Excel/CSV) dan impor kembali
+
+Fitur berikutnya yang direncanakan: Segar menjalankan **ekspor otomatis setiap
+hari** ke file **Excel (`.xlsx`)** atau **CSV**, lalu file tersebut bisa
+**diimpor kembali** ke aplikasi.
+
+Rencana teknis:
+
+- Penjadwalan harian di latar belakang (WorkManager di Android,
+  BGTaskScheduler di iOS) dengan jam ekspor yang bisa dipilih.
+- Format CSV untuk data ringan dan XLSX dengan beberapa sheet: pantry, riwayat
+  pemakaian, dan daftar belanja.
+- File disimpan ke folder yang dipilih pengguna atau dibagikan lewat share
+  sheet. Tetap lokal, tanpa server.
+- Riwayat ekspor beserta status berhasil/gagal, plus opsi membersihkan file
+  lama.
+- Impor kembali dengan validasi format/versi, pratinjau, dan pilihan mode
+  **gabung** atau **ganti** data.
+- Notifikasi lokal setelah ekspor selesai atau gagal.
+- Pengaturan: aktif/nonaktif, jam ekspor, format file, dan folder tujuan.
+
+Status: **direncanakan**, belum diimplementasikan. Untuk saat ini, ekspor JSON
+manual tetap tersedia di **Pengaturan → Cadangan & pemulihan**.
+
+| Kemampuan | Status |
+| --- | --- |
+| Ekspor/impor JSON manual | Selesai |
+| Ekspor terjadwal harian ke CSV/XLSX | Direncanakan |
+| Impor kembali CSV/XLSX | Direncanakan |
+
 ## Arsitektur
 
 Alur data satu arah:
@@ -163,5 +238,3 @@ lokal dan dijadwalkan oleh perangkat.
 
 Proyek pribadi. Aset gambar dan font Plus Jakarta Sans dipakai untuk keperluan
 aplikasi ini.
-# segar
-# segar
